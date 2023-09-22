@@ -213,7 +213,20 @@ CREATE TABLE `parques nacionales` (
 
 -- --------------------------------------------------------
 
---
+
+CREATE DATABASE mi_basedatos;
+
+USE mi_basedatos;
+
+CREATE TABLE contactos (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(50),
+    correo VARCHAR(50),
+    mensaje TEXT
+);
+
+
+-----------------------------------------------------------------------
 -- Estructura de tabla para la tabla `registro`
 --
 
