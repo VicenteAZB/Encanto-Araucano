@@ -179,6 +179,17 @@ body {
     max-width: 30%;
 }
 
+
+.titulos {
+    justify-content: center;
+    align-items: center;
+    height: 16vh;
+}
+
+.titulos img {
+    max-width: 30%;
+}
+
 .mapa {
     width: 1000px;
     height: 800px;
@@ -294,21 +305,35 @@ body {
     padding-top: 10%;
 }
 
-@keyframes animate{
-    20%{
-        background-image: url(https://www.fmdos.cl/wp-content/uploads/2018/01/Capit%C3%A1n-Pastene4-e1516049907465.jpg);
-        background-size: cover;
-    }
-    40%{
-        background-image: url(https://live.staticflickr.com/8145/6993506814_af98df0742_b.jpg);
-        background-size: cover;
-    }
-    60%{
-        background-image: url(https://admin.kunapak.com/uploads/imagenes/6ce27fee644a32b9ba0a800e27c0208f354680ac.jpg);
-        background-size: cover;
-    }
-    80%{
-        background-image: url(https://dfmas.df.cl/dfmas/site/artic/20230119/imag/foto_0000001020230119202015/A_UNO_1342391.jpg);
-        background-size: cover;
-    }
+
+.logo img{
+    align-items: c;
+}
+
+
+div#slider { overflow: hidden; } /* las imágenes no van a salir del márgen de la pantalla*/
+div#slider figure img { width: 20%; float: left; }
+
+div#slider figure { 
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 30s slidy infinite; /*el movimiento se va a mantener de forma indefinida -infinito-*/
+}
+
+
+/*esta parte del código define el movimiento de las imágenes a la izquierda*/
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
 }
