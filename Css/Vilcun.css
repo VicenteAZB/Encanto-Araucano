@@ -20,7 +20,6 @@ body {
 
 ul {
     list-style: none;
-    background: rgb(22, 178, 30);
 }
 
 ul li {
@@ -56,7 +55,12 @@ ul li a:hover {
 ul li:hover ul.dropdown {
     display: block;   
 }
-
+#parrafo{
+    margin-top: 30px;
+    font-size: 28px;
+    font-family: cursive;
+    font-style: italic;
+}
 .box {
     height: 30px;
     display: flex;
@@ -188,21 +192,29 @@ ul li:hover ul.dropdown {
 .image-container img:hover {
     transform: scale(0.9);
 }
-
 section {
-    opacity: 0.85;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.85);
+    text-align: center;
     padding: 20px;
     margin: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
-
 section h2 {
-    text-align: left;
     color: #000a41;
-    font-size: 1.6em;
+    font-size: 44px;
     font-family: 'Gill Sans';
+}
+section h3{
+    color: #000000;
+    font-size: 36px;
+    font-family: "Nunito", sans-serif;
+}
+section p{
+    color: #000000;
+    margin-top: 20px;
+    font-size: 28px;
+    font-family: "Nunito", sans-serif;
 }
 
 footer {
@@ -213,7 +225,76 @@ footer {
 }
 
 #descripcion{
-    margin-top: 40px;
-    font-size: 50px;
+    margin-top: 20px;
+    font-size: 28px;
     font-family: cursive;
+}
+#gastronomia ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+#gastronomia ul li {
+    width: 30%;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#gastronomia ul li img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+#gastronomia ul li h4 {
+    margin-top: 10px;
+    font-size: 24px;
+    text-align: center;
+}
+
+#gastronomia ul li p {
+    font-size: 18px;
+}
+
+#gastronomia ul li a.button {
+    display: block;
+    padding: 10px 20px;
+    background-color: rgb(26, 110, 221);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#gastronomia ul li a.button:hover {
+    background-color: rgb(102, 130, 103);
+}
+
+
+section#entretenimiento img {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+}
+section#sitios-turisticos img {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+}
+
+section#cultura img {
+    width: 50%; 
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #ccc;
+    border-radius: 15px;
 }

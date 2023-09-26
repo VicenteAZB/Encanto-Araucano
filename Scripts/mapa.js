@@ -102,9 +102,6 @@ comunaPaths.forEach(function(path) {
 
     } else if (comunaId === 'Curacautin') {
       window.location.href = '../Html/Curacautin.html';  
-
-    } else {
-      window.location.href = 'https://www.ejemplo.com/default';
     }
   });
 });
