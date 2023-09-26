@@ -200,10 +200,8 @@ h1{
 }
 .info {
     font-style: oblique;
-    text-align: justify;
+    text-align: center;
     font-size: 22px;
-    margin-left: 2%;
-    margin-right: 50%;
     margin-top: 5%;
     margin-bottom: 5%;
     font-family:'Arial';
@@ -289,38 +287,3 @@ footer {
     font-family: cursive;
 }
 
-.position {
-    position: absolute;
-    transform: translate(-50%, -50%);
-    margin-left: 75%;
-    margin-top: -23%;
-}
-
-.slider{
-    border-style: hidden solid;
-    background-image: url(https://www.scj.cl/sites/default/files/2018-09/201004301626510Dreams_Temuco.JPG);
-    background-size: cover;
-    height: 60%;
-    width: 47%;
-    border-radius: 20px;
-    animation: animate 30s infinite;
-}
-
-@keyframes animate{
-    20%{
-        background-image: url(https://upload.wikimedia.org/wikipedia/commons/a/a1/Temuco_skyline_from_%C3%91ielol_Hill.jpg);
-        background-size: cover;
-    }
-    40%{
-        background-image: url(https://old.comunaenergetica.cl/wp-content/uploads/2017/04/temuco.jpg);
-        background-size: cover;
-    }
-    60%{
-        background-image: url(https://media.meer.com/attachments/61096af817fc5d18f647aa9ec3defbd062a8427f/store/fill/1090/613/d0a8fe69c66abd1bb9f9810c0dc4908c518f168f69a5dbf5cd2417742079/Temuco-ciudad-ubicada-a-676-kilometros-al-Sur-de-Santiago-de-Chile.jpg);
-        background-size: cover;
-    }
-    80%{
-        background-image: url(https://www.plataformaurbana.cl/wp-content/uploads/2014/09/1411495074_edificio_marsano_temuco____alvaro_jimenez_flickr-528x396.jpg);
-        background-size: cover;
-    }
-}
