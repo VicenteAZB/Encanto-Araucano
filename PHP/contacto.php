@@ -1,3 +1,13 @@
+<?php
+
+    session_start();
+    if(isset($_SESSION['usuario'])){
+        header("location: formulario.php");
+    }
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,9 +23,9 @@
         </div>
         <nav>
             <ul>
-                <li><a href="Encanto Araucano.html">Home</a></li>
+                <li><a href="../Html/Encanto Araucano.html">Home</a></li>
                 <li><a href="#">Sobre Nosotros</a></li>
-                <li><a href="contacto.html">Contactanos </a></li>
+                <li><a href="contacto.php">Contactanos </a></li>
             </ul>
         </nav>
         <div class="box">
@@ -41,18 +51,18 @@
                 </div>
             </div>
             <div class="contenedor__login-register">
-                <form action="" class="formulario__login">
+                <form action="inicio_sesion_BE.php" method="POST" class="formulario__login">
                     <h2>Iniciar Sesión</h2>
-                    <input type="text" placeholder="Correo Electronico">
-                    <input type="password" placeholder="Contraseña">
+                    <input type="text" placeholder="Correo Electronico" name="correo">
+                    <input type="password" placeholder="Contraseña" name="contrasena">
                     <button>Entrar</button>
                 </form>
-                <form action="" class="formulario__register">
+                <form action="registro_BE.php" method="POST" class="formulario__register">
                     <h2>Regístrarse</h2>
-                    <input type="text" placeholder="Nombre completo">
-                    <input type="text" placeholder="Correo Electronico">
-                    <input type="text" placeholder="Usuario">
-                    <input type="password" placeholder="Contraseña">
+                    <input type="text" placeholder="Nombre completo" name="nombre_completo">
+                    <input type="text" placeholder="Correo Electronico" name="correo">
+                    <input type="text" placeholder="Usuario" name="usuario">
+                    <input type="password" placeholder="Contraseña" name="contrasena">
                     <button>Regístrarse</button>
                 </form>
             </div>
