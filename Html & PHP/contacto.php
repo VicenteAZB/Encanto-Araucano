@@ -1,3 +1,13 @@
+<?php
+
+    session_start();
+    if(isset($_SESSION['usuario'])){
+        header("location: formulario.php");
+    }
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -41,10 +51,10 @@
                 </div>
             </div>
             <div class="contenedor__login-register">
-                <form action="" class="formulario__login">
+                <form action="../BE/inicio_sesion_BE.php" method="POST" class="formulario__login">
                     <h2>Iniciar Sesión</h2>
-                    <input type="text" placeholder="Correo Electronico">
-                    <input type="password" placeholder="Contraseña">
+                    <input type="text" placeholder="Correo Electronico" name="correo">
+                    <input type="password" placeholder="Contraseña" name="contrasena">
                     <button>Entrar</button>
                 </form>
                 <form action="../BE/registro_BE.php" method="POST" class="formulario__register">
