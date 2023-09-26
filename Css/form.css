@@ -155,14 +155,16 @@ main{
     margin-top: 100px;
 }
 
-.contenedor__todo{
+        /* FORMULARIO  */
+
+.container{
     width: 100%;
     max-width: 800px;
     margin: auto;
     position: relative;
 }
 
-.caja__trasera{
+.box-main{
     width: 100%;
     padding: 10px 20px;
     display: flex;
@@ -170,32 +172,31 @@ main{
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     background-color: #1eb400;
-
 }
 
-.caja__trasera div{
+.box-main div{
     margin: 100px 40px;
     color: white;
     transition: all 500ms;
 }
 
 
-.caja__trasera div p,
-.caja__trasera button{
+.box-main div p,
+.box-main button{
     margin-top: 30px;
 }
 
-.caja__trasera div h3{
+.box-main div h3{
     font-weight: 400;
     font-size: 26px;
 }
 
-.caja__trasera div p{
+.box-main div p{
     font-size: 16px;
     font-weight: 300;
 }
 
-.caja__trasera button{
+.box-main button{
     padding: 10px 40px;
     border: 2px solid #fff;
     font-size: 14px;
@@ -207,14 +208,14 @@ main{
     transition: all 300ms;
 }
 
-.caja__trasera button:hover{
+.box-main button:hover{
     background: #fff;
     color: rgb(0, 0, 0)
 }
 
-/*Formularios*/
+        /*Formularios*/
 
-.contenedor__login-register{
+.container-login{
     display: flex;
     align-items: center;
     width: 100%;
@@ -227,7 +228,7 @@ main{
     transition: left 500ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
 }
 
-.contenedor__login-register form{
+.container-login form{
     width: 100%;
     padding: 80px 20px;
     background: white;
@@ -235,14 +236,14 @@ main{
     border-radius: 20px;
 }
 
-.contenedor__login-register form h2{
+.container-login form h2{
     font-size: 30px;
     text-align: center;
     margin-bottom: 20px;
     color: #1eb400;
 }
 
-.contenedor__login-register form input{
+.container-login form input{
     width: 100%;
     margin-top: 20px;
     padding: 10px;
@@ -252,7 +253,7 @@ main{
     outline: none;
 }
 
-.contenedor__login-register form button{
+.container-login form button{
     padding: 10px 40px;
     margin-top: 40px;
     border: none;
@@ -266,10 +267,43 @@ main{
 
 
 
+.icon-login{
+    position: absolute;
+    top: 57%;
+    right: 30px;
+    width: 30px;
+    transform: translateY(-50%);
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.icon-register{
+    position: absolute;
+    top: 67%;
+    right: 30px;
+    width: 30px;
+    transform: translateY(-50%);
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.icon-login:hover, .icon-register:hover{
+    opacity: 0.8;
+}
+
+
+.passwrd{
+    width: 100%;
+    padding-right: 40px;
+}
+
+
 
 .formulario__login{
-    opacity: 1;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* display: block; */
 }
 .formulario__register{
     display: none;
@@ -283,14 +317,14 @@ main{
         margin-top: 50px;
     }
 
-    .caja__trasera{
+    .box-main{
         max-width: 350px;
         height: 300px;
         flex-direction: column;
         margin: auto;
     }
 
-    .caja__trasera div{
+    .box-main div{
         margin: 0px;
         position: absolute;
     }
@@ -298,13 +332,13 @@ main{
 
     /*Formularios*/
 
-    .contenedor__login-register{
+    .container-login{
         top: -10px;
         left: -5px;
         margin: auto;
     }
 
-    .contenedor__login-register form{
+    .container-login form{
         position: relative;
     }
 }
