@@ -11,7 +11,8 @@ var caja_trasera_login = document.querySelector(".caja__trasera-login");
 var caja_trasera_register = document.querySelector(".caja__trasera-register");
 var ojo_login = document.getElementById('Ojo1')
 var ojo_register = document.getElementById('Ojo2')
-var input_pass = document.getElementById('InputPass')
+var input_pass_login = document.getElementById('InputPassLogin')
+var input_pass_register = document.getElementById('InputPassRegister')
 
     //FUNCIONES
 
@@ -66,29 +67,29 @@ function register(){
     }
 }
 
-    
+      
+
     ojo_login.addEventListener("click", function(){
-        if(input_pass.type == "password"){
-            input_pass.type = "text"
+        if(input_pass_login.type == "password"){
+            input_pass_login.type = "text"
             ojo_login.style.opacity = 0.8
         }else{
-            input_pass.type = "password"
+            input_pass_login.type = "password"
             ojo_login.style.opacity = 0.3
         }
     })
 
     ojo_register.addEventListener("click", function(){
-        if(input_pass.type == "password"){
-            input_pass.type = "text"
+        if(input_pass_register.type == "password"){
+            input_pass_register.type = "text"
             ojo_register.style.opacity = 0.8
         }else{
-            input_pass.type = "password"
+            input_pass_register.type = "password"
             ojo_register.style.opacity = 0.3
         }
-    })
+    })  
 
-
-
+    
     function validarPassword(password){
         const decimal = /^(?=.*\d)(?=.*[a-z])(?=.*[^a-zA-Z0-9])(?!.*\s).{8,15}$/;
     
