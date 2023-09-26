@@ -30,7 +30,7 @@ font-family: "Raleway",sans-serif;
   transition: all 2s ease-out;
 }
 
-/*Overlay*/
+
 .overlay{
   height:100vh;
   width: 100vw;
@@ -42,7 +42,7 @@ font-family: "Raleway",sans-serif;
   
 }
 
-/* manuel slider controls*/
+
 .slider-controls{
   z-index:9;
   position: absolute;
@@ -69,7 +69,7 @@ font-family: "Raleway",sans-serif;
   fill:#EFEFEF;
 }
 
-/*Slider Indicators*/
+
 .slider-indicators{
   z-index:9;
   display: flex;
