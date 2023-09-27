@@ -14,6 +14,7 @@ var ojo_register = document.getElementById('Ojo2')
 var input_pass_login = document.getElementById('InputPassLogin')
 var input_pass_register = document.getElementById('InputPassRegister')
 
+
     //FUNCIONES
 
 function anchoPage(){
@@ -37,7 +38,7 @@ anchoPage();
 function iniciarSesion(){
     if (window.innerWidth > 850){
         formulario_login.style.display = "block";
-        contenedor_login_register.style.left = "10px";
+        contenedor_login_register.style.left = "0px";
         formulario_register.style.display = "none";
         caja_trasera_register.style.opacity = "1";
         caja_trasera_login.style.opacity = "0";
@@ -53,7 +54,7 @@ function iniciarSesion(){
 function register(){
     if (window.innerWidth > 850){
         formulario_register.style.display = "block";
-        contenedor_login_register.style.left = "410px";
+        contenedor_login_register.style.left = "420px";
         formulario_login.style.display = "none";
         caja_trasera_register.style.opacity = "0";
         caja_trasera_login.style.opacity = "1";
@@ -88,14 +89,12 @@ function register(){
             ojo_register.style.opacity = 0.3
         }
     })  
-
     
-    function validarPassword(password){
+    /*function validarPassword(password){
         const decimal = /^(?=.*\d)(?=.*[a-z])(?=.*[^a-zA-Z0-9])(?!.*\s).{8,15}$/;
     
         if(password.value.match(decimal)) {
             alert("¡La contaseña es segura!"); 
         }else {
-            alert("La contraseña debe contener al menos 8 caracteres. Una minúscula, mayúscula, número y un carácter especial.")
-    }
-}
+            alert("La contraseña debe contener al menos 8 caracteres. Una minúscula, mayúscula, número y un carácter especial.");
+    }*/

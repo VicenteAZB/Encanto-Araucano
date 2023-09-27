@@ -5,7 +5,7 @@
     include 'conexion_BE.php';
 
     $correo = $_POST['correo'];
-    $contrasena = $_POST['contrasena'];
+    $contrasena = $_POST['password'];
     $contrasena = hash('sha512', $contrasena);
 
     $validate = mysqli_query($conexion, "SELECT * FROM usuarios WHERE correo='$correo' and contrasena='$contrasena'");
