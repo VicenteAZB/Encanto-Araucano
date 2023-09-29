@@ -1,0 +1,222 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+}
+
+body {
+    background-image: url('../Imágenes/perquenco.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    height: 100vh;
+}
+
+.hero {
+    margin-bottom: 30px;
+    padding: 30px 20px 0px 20px;
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-height: 400px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.image-container a {
+    border-radius: 10px;
+    margin-top: 30px;
+    width: 23%; 
+    height: auto;
+}
+
+.image-container img {
+    border: rgb(0, 0, 0) solid;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%; 
+    max-height: 300px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.image-container img:hover {
+    transform: scale(0.9);
+}
+
+h1{
+    border-radius: 30px;
+    padding: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-top: 20px;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+    
+}
+
+.div-info{
+    margin-top: 1000px;
+    padding-top: 100;
+    width: 90%;
+    max-width: 1100px;
+    margin: 1.2em auto;
+    display: grid;
+    gap: 1.6em;
+    /* grid-template-columns: repeat(3, 1fr) 3%; */
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.info {
+    font-style: oblique;
+    text-align: justify;
+    font-size: 22px;
+    margin-left: 0;
+    /* margin-right: 50%; */
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family:'Arial';
+    background-color: rgb(187, 187, 187); 
+    padding: 20px; 
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    grid-column: 1/2;
+    
+}
+/* .slider-container{
+    font-style: oblique;
+    text-align: justify;
+    font-size: 22px;
+    margin-left: 2%;
+    /* margin-right: 50%; 
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family:'Arial';
+    background-color: rgb(187, 187, 187); 
+    padding: 20px; 
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+} */
+
+section {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    margin: 20px;
+    margin-top: 60px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+section h2 {
+    text-align: center;
+    color: #000a41;
+    font-size: 40px;
+    font-family: 'Gill Sans';
+    font-style: initial;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+
+section p{
+    color: black;
+    font-size: 25px;
+    padding: 2%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 30px;
+}
+
+section ul li{
+    text-align: center;
+    /* display: flex; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    padding: 2%;
+    font-style: italic;
+}
+
+.imagenes{
+    margin-top: 3%;
+    margin-bottom: 5%;
+    width: 400px;
+    height: 300px;
+    border-radius: 15px;
+    margin-bottom: 5%;
+}
+
+section ul b{
+    font-size: 1.8em;
+    font-style: initial;
+}
+
+.restaurantes{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #000a41;
+    text-align: justify;
+    font-size: 25px;
+    padding: 2%;
+    font-style: italic;
+}
+
+.direccion{
+    margin-top: 0;
+    font-size: 1em;
+}
+
+footer {
+    background-color: #654321;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a{
+    color: #000a41;
+}
+
+footer a:hover{
+    color: red;
+}
+
+#descripcion{
+    background-color: black;
+    border-radius: 40px;
+    opacity: 0.7;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 40px;
+    font-size: 50px;
+    font-family: cursive;
+}
+
+.position {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    margin-left: 75%;
+    margin-top: -23%;
+}
+
+.slider-container{
+    grid-column: 2/3;
+
+}
+
+.slider-position{
+    background-image: url(http://www.araucanie.com/araucaniaesp/perquenco_fichiers/perquenco_fichiers/volcan.jpg);
+    background-size:cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}

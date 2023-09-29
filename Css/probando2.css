@@ -1,0 +1,33 @@
+/* Configuración de fuentes y estilos generales para la página */
+body {
+    font-family: Arial, sans-serif; /* Establece la fuente para todo el cuerpo de la página */
+}
+
+/* Estilos para el contenedor del carrusel */
+.carrusel-container {
+    overflow: hidden; /* Oculta el desbordamiento de los elementos dentro del contenedor */
+    width: 300px; /* Ancho del carrusel */
+    margin: 0 auto; /* Centra el carrusel en el centro de la página horizontalmente */
+}
+
+/* Estilos para el contenedor interno de elementos del carrusel */
+.carrusel {
+    display: flex; /* Utiliza un diseño flexible para los elementos del carrusel */
+    transition: all 0.5s ease-in-out; /* Aplica una transición suave a todos los cambios de estilo, duración de 0.5 segundos */
+}
+
+/* Estilos para cada elemento del carrusel */
+.carrusel-item {
+    flex: 0 0 300px; /* Ancho fijo de cada elemento del carrusel */
+    height: 200px; /* Altura fija del carrusel */
+    text-align: center; /* Centra el contenido de cada elemento */
+    border: 1px solid #ccc; /* Agrega un borde delgado con color gris */
+    box-sizing: border-box; /* Hace que el tamaño incluya el borde (box-sizing: border-box) */
+    padding: 20px; /* Agrega un espacio interno de 20px alrededor del contenido */
+}
+
+/* Estilos para los botones de navegación */
+button {
+    display: block; /* Configura los botones como elementos de bloque para centrarlos */
+    margin: 10px auto; /* Establece márgenes para centrar los botones horizontalmente */
+}

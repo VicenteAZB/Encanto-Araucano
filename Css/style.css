@@ -1,0 +1,243 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+    display: inline-block;
+    position: relative;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #000000;
+}
+
+p {
+    justify-content: center;
+    margin-top: 43%;
+    font-family: 'Lucida Sans';
+}
+
+body {
+    background-image: url('../Imágenes/Volcan.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    text-align: center;
+    height: 100vh;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 14vh;
+}
+
+.titulo img {
+    max-width: 30%;
+}
+
+
+.titulos {
+    justify-content: center;
+    align-items: center;
+    height: 16vh;
+}
+
+.titulos img {
+    max-width: 30%;
+}
+
+.mapa {
+    width: 1000px;
+    height: 800px;
+    margin-top: 100px;
+}
+
+.señalmap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    margin-top: 200px;
+}
+
+.señalmap img {
+    max-width: 40%;
+}
+
+.position {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.slider{
+    background-image: url(https://www.fmdos.cl/wp-content/uploads/2022/01/Araucania.jpg);
+    background-size: cover;
+    height: 70%;
+    width: 50%;
+    border-radius: 20px;
+    animation: animate 30s infinite;
+}
+
+/* FORMULARIO DE CONTACTO */
+
+.container-contacto{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 90px;
+    background-color: beige;
+    opacity: 0.7;
+}
+
+.container-contacto h2{
+    margin-top: 15px;
+    font-size: 35px;
+    text-align: center;
+}
+
+.container-contacto p{
+    font-size: 17px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.container-contacto a{
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    width: 100%;
+    margin-bottom: 15px;
+    color: #000000;
+    font-weight: 700;
+    padding-left: 30px;
+}
+
+.container-contacto a i{
+    color: orange;
+    margin-right: 10px;
+}
+
+.container-contacto form .campo, textarea{
+    width: 98%;
+    padding: 15px 15px ;
+    font-size: 15px;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    border-radius: 3px;
+    outline: 0px;
+}
+
+.container-contacto form textarea{
+    max-width: 530px;
+    min-width: 530px;
+    min-height: 140px;
+    max-height: 150px;
+}
+
+#btn-enviar{
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    outline: 0px;
+    background: orange;
+    color: whitesmoke;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 300ms ease;
+    margin-bottom: 5%;
+}
+
+#btn-enviar:hover{
+    background: #e39403;
+}
+
+#formulario{
+    padding-top: 10%;
+}
+
+
+.logo img{
+    align-items: c;
+}
+
+
+div#slider { overflow: hidden; } /* las imágenes no van a salir del márgen de la pantalla*/
+div#slider figure img { width: 20%; float: left; }
+
+div#slider figure { 
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 30s slidy infinite; /*el movimiento se va a mantener de forma indefinida -infinito-*/
+}
+
+
+/*esta parte del código define el movimiento de las imágenes a la izquierda*/
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+.descubre img {
+    width: 95%; 
+    margin: 30px;/* Cambia el valor según el tamaño que desees */
+    height: auto; /* Esto mantiene la proporción original de la imagen */
+}
+
+.GastronomiaAraucania img {
+    width: 95%; 
+    margin: -35px;
+    height: auto; 
+}
+
+.visita img {
+    width: 95%; 
+    margin: -35px;
+    height: auto; 
+}
+
+.esperanos img {
+    width: 95%; 
+    margin: 30px;
+    height: auto; 
+}
+
+.video-container {
+    width: 50%; /* Ancho del contenedor al 100% del espacio disponible */
+    height: 450px; /* Alto deseado para el contenedor del video */
+    background: #f7f3f3; /* Color de fondo (puedes cambiarlo a un valor de color específico) */
+    display: flex;
+    margin-left: 25%;
+    justify-content: center; /* Centrar horizontalmente el contenido */
+    align-items: center; /* Centrar verticalmente el contenido */
+    position: relative; /* Añadir posición relativa para permitir superponer el iframe */
+    border: solid 12px #022b68;
+}
+
+.video-container iframe {
+    max-width: 180%; /* Asegura que el video no se desborde del contenedor */
+    max-height: 180%; /* Asegura que el video no se desborde del contenedor */
+}
