@@ -36,6 +36,7 @@
             <a  id="img" href="#cultura"><img id="imagen4" src="../Imágenes/cultura.jpg" alt="Imagen 4"></a>
         </div>
     </div>
+    
     <section id="gastronomia">
         <h2>Gastronomía de Vilcun</h2>
         <p>La gastronomía de Vilcun ofrece una variedad de platos tradicionales que reflejan la riqueza de la cultura
@@ -72,60 +73,117 @@
 
     <section id="entretenimiento">
         <h2>Entretenimiento en Vilcun</h2>
-        <p>Vilcun ofrece una amplia variedad de opciones de entretenimiento para residentes y visitantes. Algunas de las actividades de entretenimiento populares incluyen:<br><br></p>
+        <p>Vilcun ofrece una amplia variedad de opciones de entretenimiento para residentes y visitantes. 
+            Algunas de las actividades de entretenimiento populares incluyen:<br><br></p>
         <ul>
-            <h3>Volcán Llaima</h3>
-            <li id="parrafo">Rodeado de bosques de araucarias y hermosas lagunas cordilleranas, e inserto en medio del Parque Nacional Conguillío se encuentra el Volcán Llaima, sus alrededores nos regala la oportunidad de disfrutar de maravillosos paisajes. Este macizo se ubica a 38 km de Vilcún, cuenta con una altura de 3125 msnm y es uno de los volcanes más activos de Sudamérica y el segundo más activo en chile, El volcán es uno de los atractivos más importante del Parque Nacional Conguillío y en los faldeos se ubican dos Centro de Ski, Centro de Ski Araucarias y Centro de Ski nevados de Vilcún.
-            </li>
-            <a>
-            <img class= "imagenes" src="https://1.bp.blogspot.com/-mS5DAQbmK9Q/YTDQi4AJIII/AAAAAAAASQY/s64toGLCDY4nHZ8Uk862mSYqPXhBMam9gCNcBGAsYHQ/s1352/llaima-volcano.jpg"alt="Volcan llaima"><br>
-            <br><br></a>
-            <h3>Plaza Central Vilcun</h3>
-            <li id="parrafo">En la plaza central de vilcun podras pasar un rato confortable y relajante junto a grandes arboles y zonas verdes, en las cercanias del lugar encontraras locales en donde puedes comprar un helado, comida, accesorios, entre otras cosas para pasar un momento agradable</li>
-            <a>
-            <img class= "imagenes" src="https://scontent.fscl9-1.fna.fbcdn.net/v/t1.6435-9/184285415_1301557960246702_6862342113599247893_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=8631f5&_nc_ohc=GRVYPQ1lNgQAX_bz4Ax&_nc_oc=AQlJvN8_G0fMNMz2HpVJ-rd100XFaJdQ18eA4OQdDVTU_lNZcIOFvsqYY_XmisCSQFI&_nc_ht=scontent.fscl9-1.fna&oh=00_AfBVxfivYxpP-3X940ZH41666_buZi7P8VbtDxxpuOU-eQ&oe=65385F95" alt="Plaza de Vilcun"><br>
-            </a>
+            <div class="div_boton">
+                <div class="carrusel-container">
+                    <!-- Elemento que contiene los elementos del carrusel -->
+                    <div class="carrusel" id="carrusel1">
+                        <!-- Elementos individuales del carrusel -->
+                        <div class="carrusel-item">
+                            <h3>Volcán Llaima</h3>
+                            <p id="parrafo">Rodeado de bosques de araucarias y hermosas lagunas cordilleranas, e inserto en medio del Parque Nacional Conguillío se encuentra el Volcán Llaima, sus alrededores nos regala la oportunidad de disfrutar de maravillosos paisajes. Este macizo se ubica a 38 km de Vilcún, cuenta con una altura de 3125 msnm y es uno de los volcanes más activos de Sudamérica y el segundo más activo en chile, El volcán es uno de los atractivos más importante del Parque Nacional Conguillío y en los faldeos se ubican dos Centro de Ski, Centro de Ski Araucarias y Centro de Ski nevados de Vilcún.
+                            </p>
+                            <a href="https://rnvv.sernageomin.cl/volcan-llaima/">
+                                <img class= "imagenes" src="https://1.bp.blogspot.com/-mS5DAQbmK9Q/YTDQi4AJIII/AAAAAAAASQY/s64toGLCDY4nHZ8Uk862mSYqPXhBMam9gCNcBGAsYHQ/s1352/llaima-volcano.jpg"alt="Volcan llaima">
+                            <br>
+                            </a>
+                        </div>
+                        <div class="carrusel-item">
+                            <h3>Plaza Central Vilcun</h3>
+                            <li id="parrafo">En la plaza central de vilcun podras pasar un rato confortable y relajante junto a grandes arboles y zonas verdes, en las cercanias del lugar encontraras locales en donde puedes comprar un helado, comida, accesorios, entre otras cosas para pasar un momento agradable</li>
+                            <a>
+                            <img class= "imagenes" src="https://scontent.fscl9-1.fna.fbcdn.net/v/t1.6435-9/184285415_1301557960246702_6862342113599247893_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=8631f5&_nc_ohc=GRVYPQ1lNgQAX_bz4Ax&_nc_oc=AQlJvN8_G0fMNMz2HpVJ-rd100XFaJdQ18eA4OQdDVTU_lNZcIOFvsqYY_XmisCSQFI&_nc_ht=scontent.fscl9-1.fna&oh=00_AfBVxfivYxpP-3X940ZH41666_buZi7P8VbtDxxpuOU-eQ&oe=65385F95" alt="Plaza de Vilcun"><br>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Botón "Anterior" para navegar por el carrusel -->
+                <button id="prevBtn" data-target="carrusel1" data-accion="izquierda"></button>
+                <!-- Botón "Siguiente" para navegar por el carrusel -->
+                <button id="nextBtn" data-target="carrusel1" data-accion="derecha"></button>
+            </div>
+            
         </ul>
     </section>
 
     <section id="sitios-turisticos">
         <h2>Sitios turisticos en Vilcun</h2>
         <ul>
-            <h3><br></br>Cabaña con tinaja Vilcun</h3>
-            <li id="parrafo">En medio de un entorno natural, rodeado de árboles, te espera una estancia única en una cabaña acogedora, donde podrás disfrutar de momentos de relajación en una tinaja
-            </li>
-            <a>
-            <img class= "imagenes" src="https://images.sparairnos.com/property/94297/images/1031896/full/bf8b5375-f164-4ef2-8780-8600dfad1fac"alt="Cabaña con tinaja Vilcun"><br>
-            <br><br></a>
-            <h3>Cherquenco Expediciones</h3>
-            <li id="parrafo">Podras disfrutar de una maravillosa aventura en el centro de turismo ubicado en Cherquenco, Vilcun<br>Para mas informacion clickea la imagen</br></li>
-            <a href="https://www.kutralkura.cl/servicios/cherquenco-expediciones?lang=pt" target="_blank" class="button"Expediciones>
-            <img class= "imagenes" src="https://www.kutralkura.cl/storage/servicios/November2021/2z3ZFK0BjdRB5MzUxs2B.jpg" alt="Cherquenco expediciones"><br>
-            </a>
+            <div class="div_boton">
+                <div class="carrusel-container">
+                    <!-- Elemento que contiene los elementos del carrusel -->
+                    <div class="carrusel" id="carrusel2">
+                        <!-- Elementos individuales del carrusel -->
+                        <div class="carrusel-item" active>
+                            <h3>Cabaña con tinaja Vilcun</h3>
+                            <p id="parrafo">En medio de un entorno natural, rodeado de árboles, te espera una estancia 
+                                única en una cabaña acogedora, donde podrás disfrutar de momentos de relajación en una 
+                                tinaja
+                            </p>
+                            <a>
+                                <img class= "imagenes" src="https://images.sparairnos.com/property/94297/images/1031896/full/bf8b5375-f164-4ef2-8780-8600dfad1fac"alt="Cabaña con tinaja Vilcun"><br>
+                                <br><br></a>
+                        </div>
+                        <div class="carrusel-item">
+                            <h3>Cherquenco Expediciones</h3>
+                            <li id="parrafo">Podras disfrutar de una maravillosa aventura en el centro de turismo ubicado en Cherquenco, Vilcun<br>Para mas informacion clickea la imagen</br></li>
+                            <a href="https://www.kutralkura.cl/servicios/cherquenco-expediciones?lang=pt" target="_blank" class="button"Expediciones>
+                                <img class= "imagenes" src="https://www.kutralkura.cl/storage/servicios/November2021/2z3ZFK0BjdRB5MzUxs2B.jpg" alt="Cherquenco expediciones"><br>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <button id="prevBtn" data-target="carrusel2" data-accion="izquierda"></button>
+                <!-- Botón "Siguiente" para navegar por el carrusel -->
+                <button id="nextBtn" data-target="carrusel2" data-accion="derecha"></button>
+                
+            </div>
         </ul>
     </section>
-
     <section id="cultura">
         <h2>Cultura de Vilcun</h2>
         <p>La cultura en Vilcún, Chile, se destaca por su atmósfera local y acogedora, ya que al tratarse de una comuna pequeña, se fomenta una estrecha conexión entre sus habitantes.<br><br></p>
         <ul>
-            <h3>Parque Conguillio</h3>
-            <p id="parrafo">El Parque Nacional Conguillío se destaca como una de las reservas naturales más prominentes de la región, donde se fusiona la asombrosa belleza de la naturaleza de nuestro país. Constituye un destino ideal para la observación y apreciación de esta maravillosa biodiversidad
-            </p>
-            <a>
-            <img class= "imagenes" src="https://lh3.googleusercontent.com/p/AF1QipNLILEcKooCDJJ3EiMc1aE5exMKHc-Zcl0QHaul=s680-w680-h510" alt="Imagen del Parque Conguillio"><br>
-            </a>
-            <h3>Estadio Municipal de Vilcun</h3>
-            <li id="parrafo">El Estadio Municipal de Vilcún es el epicentro donde los jóvenes dan vida a diversas disciplinas deportivas. Este espacio se convierte en un escenario donde se fomenta la actividad física y, si sigues sus redes sociales, tendrás la oportunidad de mantenerte informado sobre los días programados para estas actividades, lo que te permitirá disfrutar plenamente de estas emocionantes experiencias.</li>
-            <a>
-            <img class= "imagenes" src="https://deportemunicipal.cl/wp-content/uploads/2023/07/photo_3d549e23-d574-4c72-97f1-f56a143e5604.jpg" alt="Estadio Municipal de Vilcun"><br>
-            </a>
+            <div class="div_boton">
+                <div class="carrusel-container">
+                    <!-- Elemento que contiene los elementos del carrusel -->
+                    <div class="carrusel" id="carrusel3">
+                        <!-- Elementos individuales del carrusel -->
+                        <div class="carrusel-item">
+                            <h3>Parque Conguillio</h3>
+                            <p id="parrafo">El Parque Nacional Conguillío se destaca como una de las reservas naturales más prominentes de la región, donde se fusiona la asombrosa belleza de la naturaleza de nuestro país. Constituye un destino ideal para la observación y apreciación de esta maravillosa biodiversidad
+                            </p>
+                            <a>
+                                <img class= "imagenes" src="https://lh3.googleusercontent.com/p/AF1QipNLILEcKooCDJJ3EiMc1aE5exMKHc-Zcl0QHaul=s680-w680-h510" alt="Imagen del Parque Conguillio"><br>
+                            </a>
+                        </div>
+                        <div class="carrusel-item">
+                            <h3>Estadio Municipal de Vilcun</h3>
+                            <li id="parrafo">El Estadio Municipal de Vilcún es el epicentro donde los jóvenes dan vida a diversas disciplinas deportivas. Este espacio se convierte en un escenario donde se fomenta la actividad física y, si sigues sus redes sociales, tendrás la oportunidad de mantenerte informado sobre los días programados para estas actividades, lo que te permitirá disfrutar plenamente de estas emocionantes experiencias.</li>
+                            <a>
+                                <img class= "imagenes" src="https://deportemunicipal.cl/wp-content/uploads/2023/07/photo_3d549e23-d574-4c72-97f1-f56a143e5604.jpg" alt="Estadio Municipal de Vilcun"><br>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Botón "Anterior" para navegar por el carrusel -->
+                <button id="prevBtn" data-target="carrusel3" data-accion="izquierda"></button>
+                <!-- Botón "Siguiente" para navegar por el carrusel -->
+                <button id="nextBtn" data-target="carrusel3" data-accion="derecha"></button>
+                
+            </div>
+            
         </ul>
     </section>
 
     <footer>
         <p>Contacto: [Tu información de contacto]</p>
     </footer>
+    <!-- Enlace al archivo JavaScript que controla el carrusel -->
+    <script src="../Scripts/carrusel.js"></script>
     <script src = "../Scripts/script.js"></script>
+    
 </body>
 </html>  

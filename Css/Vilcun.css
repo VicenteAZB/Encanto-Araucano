@@ -298,3 +298,63 @@ section#cultura img {
     border: 2px solid #ccc;
     border-radius: 15px;
 }
+#prevBtn {
+    position: absolute; /* Hacemos que los botones se posicionen de manera absoluta dentro del contenedor */
+    top: 50%; /* Los colocamos en el centro verticalmente */
+    transform: translateY(-50%); /* Alineamos verticalmente los botones al centro */
+    background-image: url('../Imágenes/flecha2.png');
+    background-size: cover; /* Escala la imagen para que cubra todo el botón */
+    width: 50px; /* Ancho de los botones (ajusta según tu diseño) */ 
+    height: 50px;
+    left: -70px; /* Posicionamos el botón "Anterior" a la izquierda del contenedor */
+    border: none; /* Elimina el borde del botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+#nextBtn {
+    position: absolute; /* Hacemos que los botones se posicionen de manera absoluta dentro del contenedor */
+    top: 50%; /* Los colocamos en el centro verticalmente */
+    transform: translateY(-50%); /* Alineamos verticalmente los botones al centro */
+    background-image: url('../Imágenes/flecha.png');
+    background-size: cover; /* Escala la imagen para que cubra todo el botón */
+    width: 50px; /* Ancho de los botones (ajusta según tu diseño) */ 
+    height: 50px;
+    right: -70px; /* Posicionamos el botón "Anterior" a la izquierda del contenedor */
+    border: none; /* Elimina el borde del botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    
+}
+/* Estilos para el contenedor del carrusel */
+.carrusel-container {
+    width: 1000px; /* Ancho del carrusel */
+    margin: 0 auto; /* Centra el carrusel en el centro de la página horizontalmente */
+    overflow: hidden; /* Oculta el desbordamiento de los elementos dentro del contenedor interno */
+    
+}
+.div_boton{
+    width: 80%; /* Ancho del div */
+    display:flex;
+    margin: 0 auto; /* Centra el carrusel en el centro de la página horizontalmente */
+    position: relative; /* Hacemos que el contenedor sea relativo para que los botones se posicionen en relación con él */
+}
+.imagen{
+    border-radius: 50px;
+    margin-top: 30px;
+    width: 100%; 
+    height: 100%;
+}
+
+/* Estilos para el contenedor interno de elementos del carrusel */
+.carrusel {
+    display: flex; /* Utiliza un diseño flexible para los elementos del carrusel */
+    transition: all 0.5s ease-in-out; /* Aplica una transición suave a todos los cambios de estilo, duración de 0.5 segundos */
+}
+
+/* Estilos para cada elemento del carrusel */
+.carrusel-item {
+    flex: 0 0 100%; /* Ancho fijo de cada elemento del carrusel */
+    text-align: center; /* Centra el contenido de cada elemento */
+    border: 5px solid #ccc; /* Agrega un borde delgado con color gris */
+    box-sizing: border-box; /* Hace que el tamaño incluya el borde (box-sizing: border-box) */
+    padding: 20px; /* Agrega un espacio interno de 20px alrededor del contenido */
+}
