@@ -1,15 +1,13 @@
-// Obtener todas las comuna paths
 var comunaPaths = document.querySelectorAll('path');
+const nomcomunas = document.querySelector('#nomcomunas')
     
-// Agregar un controlador de eventos clic a cada comuna path
 comunaPaths.forEach(function(path) {
   path.addEventListener('click', function() {
-    // Obtener el ID de la comuna
     var comunaId = path.id;
 
-    // Redirigir a diferentes enlaces según el valor de comunaId
-     if (comunaId === 'Pitrufquen') {
+     if (comunaId === 'Pitrufquén') {
        location.href='../PHP/Pitrufquen.php';
+
     } else if (comunaId === 'Carahue') {
       window.location.href = '../PHP/Carahue.php';
 
@@ -31,7 +29,7 @@ comunaPaths.forEach(function(path) {
     } else if (comunaId === 'Cholchol') {
       window.location.href = '../PHP/Chol_Chol.php';  
 
-    } else if (comunaId === 'Vilcun') {
+    } else if (comunaId === 'Vilcún') {
       window.location.href = '../PHP/Vilcun.php';  
 
     } else if (comunaId === 'Temuco') {
@@ -40,22 +38,22 @@ comunaPaths.forEach(function(path) {
     } else if (comunaId === 'Melipeuco') {
       window.location.href = '../PHP/Melipeuco.php';  
     
-    } else if (comunaId === 'PLC') {
+    } else if (comunaId === 'Padre Las Casas') {
       window.location.href = '../PHP/PLC.php';  
 
-    } else if (comunaId === 'Nueva_Imperial') {
+    } else if (comunaId === 'Nueva Imperial') {
       window.location.href = '../PHP/Nueva_Imperial.php';  
 
-    } else if (comunaId === 'Teodoro_Schmidt') {
+    } else if (comunaId === 'Teodoro Schmidt') {
       window.location.href = '../PHP/Teodoro.php';  
 
     } else if (comunaId === 'Curarrehue') {
       window.location.href = '../PHP/Curarrehue.php';
 
-    } else if (comunaId === 'Tolten') {
+    } else if (comunaId === 'Toltén') {
       window.location.href = '../PHP/Tolten.php';  
 
-    } else if (comunaId === 'Pucon') {
+    } else if (comunaId === 'Pucón') {
       window.location.href = '../PHP/Pucon.php';  
 
     } else if (comunaId === 'Villarrica') {
@@ -64,7 +62,7 @@ comunaPaths.forEach(function(path) {
     } else if (comunaId === 'Loncoche') {
       window.location.href = '../PHP/Loncoche.php';  
 
-    } else if (comunaId === 'Saavedra') {
+    } else if (comunaId === 'Puerto Saavedra') {
       window.location.href = '../PHP/Puerto_Saavedra.php';  
 
     } else if (comunaId === 'Renaico') {
@@ -76,10 +74,10 @@ comunaPaths.forEach(function(path) {
     } else if (comunaId === 'Angol') {
       window.location.href = '../PHP/Angol.php';  
 
-    } else if (comunaId === 'Los_Sauces') {
+    } else if (comunaId === 'Los Sauces') {
       window.location.href = '../PHP/Los_Sauces.php';  
 
-    } else if (comunaId === 'Puren') {
+    } else if (comunaId === 'Purén') {
       window.location.href = '../PHP/Puren.php';  
 
     } else if (comunaId === 'Ercilla') {
@@ -91,7 +89,7 @@ comunaPaths.forEach(function(path) {
     } else if (comunaId === 'Freire') {
       window.location.href = '../PHP/Freire.php'
 
-    } else if (comunaId === 'Traiguen') {
+    } else if (comunaId === 'Traiguén') {
       window.location.href = '../PHP/Traiguen.php';  
 
     } else if (comunaId === 'Lumaco') {
@@ -103,5 +101,24 @@ comunaPaths.forEach(function(path) {
     } else if (comunaId === 'Curacautin') {
       window.location.href = '../PHP/Curacautin.php';  
     }
+  });
+});
+
+
+function MuestraDescripcion(descripcion) {
+  nomcomunas.innerHTML = descripcion;
+}
+
+function RestaurarDescripcion(descripcion) {
+  nomcomunas.innerHTML = descripcion;
+}
+
+comunaPaths.forEach(function(path) {
+  path.addEventListener('mouseover', function() {
+    var comunaId = path.id;
+    MuestraDescripcion(comunaId);
+  path.addEventListener('mouseout', function() {
+    RestaurarDescripcion("...");
+  });
   });
 });

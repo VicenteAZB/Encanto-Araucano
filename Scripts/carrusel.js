@@ -13,7 +13,7 @@ botones.forEach(boton => {
     if (!contadores[targetId]) {
         contadores[targetId] = 0;
     }
-    
+    console.log(targetId)
     const carrusel = document.getElementById(targetId);
     const numItems = carrusel.querySelectorAll('.carrusel-item').length;
     const itemWidth = carrusel.querySelector('.carrusel-item').offsetWidth;
@@ -22,6 +22,7 @@ botones.forEach(boton => {
     const transitionDuration = 0.5; // 0.5 segundos
 
     boton.addEventListener('click', () => {
+        console.log(targetId)
         // Incrementamos o restamos el contador del botón según la acción
         if (accion === 'derecha') {
             contadores[targetId]++;
