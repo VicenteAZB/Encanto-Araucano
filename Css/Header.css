@@ -9,7 +9,7 @@
 }
 
 #menú .cat a {
-    display: block;
+    display: grid;
     padding: 20px 25px;
     color: #fff;
     text-decoration: none;
@@ -77,7 +77,7 @@
     justify-content: space-between;
     align-items: center;
     height: 85px;
-    padding: 5px 10%;
+    padding: 3%;
 }
 
 .header.logo {
@@ -85,13 +85,13 @@
 }
 
 .header .logo img {
-    height: 75px;
+    height: 70px;
     width: auto;
     transition: all 0.3;
 }
 
 .header .logo img:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 .header .nav-.catnks {
@@ -131,4 +131,52 @@
     background-color: bisque;
     color: sandybrown;
     transform: scale(1.1);
+}
+
+
+@media screen and (max-width: 1150px){
+    .box:hover input {
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 850px){
+    #menú .cat a {
+        padding: 6px 11px;
+        color: #fff;
+        text-decoration: none;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .header .logo img {
+        height: 55px;
+        width: auto;
+        transition: all 0.3;
+    }
+    
+    .header .logo img:hover {
+        transform: scale(1.1);
+    }
+}
+
+@media screen and (max-width: 650px){
+    .box:hover input {
+        width: 60px;
+    }
+
+    .box input {
+        font-size: 14px;
+        font-weight: 100px;
+    }
+    
+    .box a .fast {
+        color: aqua;
+        font-size: 14px;
+    }
+    
+    .box img {
+        height: 15px;
+        width: auto;
+    }
 }

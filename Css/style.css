@@ -8,10 +8,11 @@
 
 
 #nomcomunas {
-    font-size: 24px;
+    font-size: 36px;
+    color: rgb(0, 0, 0);
     padding: 5px;
     justify-content: center;
-    font-family: 'Lucida Sans';
+    font-family: 'Gill Sans';
 }
 
 body {
@@ -66,6 +67,7 @@ body {
     max-width: 40%;
 }
 
+
 .position {
     position: absolute;
     top: 60%;
@@ -80,92 +82,6 @@ body {
     width: 50%;
     border-radius: 20px;
     animation: animate 30s infinite;
-}
-
-/* FORMULARIO DE CONTACTO */
-
-.container-contacto{
-    width: 100%;
-    max-width: 1100px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    margin-top: 90px;
-    background-color: beige;
-    opacity: 0.7;
-}
-
-.container-contacto h2{
-    margin-top: 15px;
-    font-size: 35px;
-    text-align: center;
-}
-
-.container-contacto p{
-    font-size: 17px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-
-.container-contacto a{
-    font-size: 17px;
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    width: 100%;
-    margin-bottom: 15px;
-    color: #000000;
-    font-weight: 700;
-    padding-left: 30px;
-}
-
-.container-contacto a i{
-    color: orange;
-    margin-right: 10px;
-}
-
-.container-contacto form .campo, textarea{
-    width: 98%;
-    padding: 15px 15px ;
-    font-size: 15px;
-    border: 1px solid #dbdbdb;
-    margin-bottom: 20px;
-    margin-right: 15px;
-    border-radius: 3px;
-    outline: 0px;
-}
-
-.container-contacto form textarea{
-    max-width: 530px;
-    min-width: 530px;
-    min-height: 140px;
-    max-height: 150px;
-}
-
-#btn-enviar{
-    padding: 15px;
-    font-size: 16px;
-    border: none;
-    outline: 0px;
-    background: orange;
-    color: whitesmoke;
-    border-radius: 3px;
-    cursor: pointer;
-    transition: all 300ms ease;
-    margin-bottom: 5%;
-}
-
-#btn-enviar:hover{
-    background: #e39403;
-}
-
-#formulario{
-    padding-top: 10%;
-}
-
-
-.logo img{
-    align-items: c;
 }
 
 
@@ -235,4 +151,34 @@ div#slider figure {
 .video-container iframe {
     max-width: 180%; /* Asegura que el video no se desborde del contenedor */
     max-height: 180%; /* Asegura que el video no se desborde del contenedor */
+}
+
+
+.container svg {
+    height:574.10001px;
+    width:600px;
+}
+
+@media screen and (max-width: 700px){
+
+    #nomcomunas{
+        font-size: 28px;
+    }
+
+    .container svg {
+        height:474.10001px;
+        width:500px;
+    }
+}
+
+@media screen and (max-width: 500px){
+
+    #nomcomunas{
+        font-size: 20px;
+    }
+    
+    .container svg {
+        height:274.10001px;
+        width:300px;
+    }   
 }

@@ -40,51 +40,8 @@
         <img src="../Imágenes/dondequieresir.png" alt="titulo">
     </div>
     <p id="nomcomunas">...</p>
-            
     <div class="container">
-        <svg
-            xmlns:dc="http://purl.org/dc/elements/1.1/"
-            xmlns:cc="http://creativecommons.org/ns#"
-            xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-            xmlns:svg="http://www.w3.org/2000/svg"
-            xmlns="http://www.w3.org/2000/svg"
-            xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-            xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-            inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
-            sodipodi:docname="Provincias de Araucanía.svg"
-            xml:space="preserve"
-            id="Capa_1"
-            viewBox="0 0 511.459 447.929"
-            height="674.10001"
-            width="700"
-            version="1.0"><metadata
-            id="metadata44"><rdf:RDF><cc:Work
-            rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-            rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><sodipodi:namedview
-            inkscape:current-layer="Capa_1"
-            inkscape:window-maximized="1"
-            inkscape:window-y="-8"
-            inkscape:window-x="-8"
-            inkscape:cy="228.93968"
-            inkscape:cx="223.04689"
-            inkscape:zoom="0.83487239"
-            showgrid="false"
-            id="namedview42"
-            inkscape:window-height="715"
-            inkscape:window-width="1366"
-            inkscape:pageshadow="2"
-            inkscape:pageopacity="0"
-            guidetolerance="10"
-            gridtolerance="10"
-            objecttolerance="10"
-            borderopacity="1"
-            bordercolor="#666666"
-            pagecolor="#ffffff" /><defs
-            id="defs2268" /><g
-            style="fill:#f0e0af;fill-opacity:1"
-        >
-     
-     
+        <svg viewBox= "0 0 511.459 447.929">
      <path
 
        id="Carahue" 
