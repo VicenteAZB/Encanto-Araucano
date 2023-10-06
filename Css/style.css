@@ -171,7 +171,7 @@ div#slider figure {
     }
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 536px){
 
     #nomcomunas{
         font-size: 20px;

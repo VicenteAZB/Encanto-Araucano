@@ -38,6 +38,7 @@ main{
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     background-color: #1eb400;
+    border-radius: 200px;
 }
 
 .box-main div{
@@ -97,7 +98,7 @@ main{
 .container-login form{
     width: 100%;
     padding: 80px 20px;
-    background: white;
+    background: rgb(255, 255, 255);
     position: absolute;
 }
 
@@ -183,6 +184,10 @@ main{
         margin-top: 50px;
     }
 
+    .container{
+        text-align: center;
+    }
+
     .box-main{
         max-width: 350px;
         height: 300px;
@@ -192,7 +197,7 @@ main{
 
     .box-main div{
         margin: 0px;
-        position: absolute;
+        position: relative;
     }
 
 

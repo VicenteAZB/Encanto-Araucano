@@ -180,3 +180,49 @@
         width: auto;
     }
 }
+
+@media screen and (max-width: 536px){
+    .box:hover input {
+        width: 40px;
+    }
+
+    .box input {
+        font-size: 10px;
+        font-weight: 50px;
+    }
+    
+    #menú .cat a {
+        padding: 3px 8px;
+    }
+    
+}
+
+@media screen and (max-width: 490px){
+    .box:hover input {
+        width: 50px;
+    }
+
+    .box input {
+        font-size: 12px;
+        font-weight: 100px;
+    }
+    
+    .box img {
+        height: 15px;
+        width: auto;
+    }
+    #menú .cat a {
+        padding: 3px 4px;
+        color: #fff;
+        text-decoration: none;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .header .logo img {
+        height: 35px;
+        width: auto;
+        transition: all 0.3;
+    }
+}
+
