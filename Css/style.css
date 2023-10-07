@@ -8,11 +8,13 @@
 
 
 #nomcomunas {
-    font-size: 36px;
+    font-size: 40px;
+    text-align: center;
     color: rgb(0, 0, 0);
     padding: 5px;
     justify-content: center;
     font-family: 'Gill Sans';
+    margin-bottom: 50px;
 }
 
 body {
@@ -20,11 +22,10 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;  
     background-size: cover;
-    text-align: center;
     height: 100vh;
     display: flexbox;
     justify-content: center;
-    align-items: center;
+    text-align: center;
 }
 
 .titulo {
@@ -159,6 +160,13 @@ div#slider figure {
     width:600px;
 }
 
+#imgcomunas{
+    border-radius: 20px;
+    margin-bottom: 87px;
+    width: 600px;
+    height: 400px;
+}
+
 @media screen and (max-width: 700px){
 
     #nomcomunas{
@@ -168,6 +176,12 @@ div#slider figure {
     .container svg {
         height:474.10001px;
         width:500px;
+    }
+
+    #imgcomunas{
+        margin-top: 30px;
+        width: 500px;
+        height: 300px;
     }
 }
 
@@ -181,4 +195,10 @@ div#slider figure {
         height:274.10001px;
         width:300px;
     }   
+
+    #imgcomunas{
+        margin-top: 30px;
+        width: 300px;
+        height: 150px;
+    }
 }
