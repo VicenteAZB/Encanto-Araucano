@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="reseña.css">
+</head>
+<body>
+
+<div class="add-review">
+  <h2>Cuéntanos sobre tus experiencias</h2>
+  <form id="reviewForm">
+    <label for="name">Ingresa tu nombre:</label>
+    <input type="text" id="name" placeholder="Tu nombre" pattern="[A-Za-záéíóúÁÉÍÓÚñÑ\s]{2,50}"
+           title="Por favor, ingresa un nombre válido (solo letras y espacios, entre 2 y 50 caracteres)" required>
+
+    <label for="review">Reseña:</label>
+    <textarea id="review" placeholder="Escribe tu reseña" minlength="10" required></textarea>
+
+    <button type="submit">Enviar reseña</button>
+  </form>
+</div>
+
+<div class="reviews">
+  <h2>Reseñas de otros usuarios</h2>
+  <ul id="reviewsList">
+   
+  </ul>
+</div>
+
+<script src="reseña.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
