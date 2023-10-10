@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="../Css/Vilcun.css">
     <title>Vilcún</title>
     <link rel="icon" type="image/png" href="./Imágenes/faviconlogo.png">
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDy_DSdxfyIRVT5quItDYSbcCTg4DLXMfw"></script>
 </head>
 <body>    
     <?php
@@ -69,17 +70,31 @@
                             <h3>Volcán Llaima</h3>
                             <p id="parrafo">Rodeado de bosques de araucarias y hermosas lagunas cordilleranas, e inserto en medio del Parque Nacional Conguillío se encuentra el Volcán Llaima, sus alrededores nos regala la oportunidad de disfrutar de maravillosos paisajes. Este macizo se ubica a 38 km de Vilcún, cuenta con una altura de 3125 msnm y es uno de los volcanes más activos de Sudamérica y el segundo más activo en chile, El volcán es uno de los atractivos más importante del Parque Nacional Conguillío y en los faldeos se ubican dos Centro de Ski, Centro de Ski Araucarias y Centro de Ski nevados de Vilcún.
                             </p>
-                            <a href="https://rnvv.sernageomin.cl/volcan-llaima/">
-                                <img class= "imagenes" src="https://1.bp.blogspot.com/-mS5DAQbmK9Q/YTDQi4AJIII/AAAAAAAASQY/s64toGLCDY4nHZ8Uk862mSYqPXhBMam9gCNcBGAsYHQ/s1352/llaima-volcano.jpg"alt="Volcan llaima">
-                            <br>
-                            </a>
+                            <div class="division">
+                                <div>
+                                    <a href="https://rnvv.sernageomin.cl/volcan-llaima/">
+                                        <img class= "imagen" src="https://1.bp.blogspot.com/-mS5DAQbmK9Q/YTDQi4AJIII/AAAAAAAASQY/s64toGLCDY4nHZ8Uk862mSYqPXhBMam9gCNcBGAsYHQ/s1352/llaima-volcano.jpg"alt="Volcan llaima">
+                                    <br>
+                                    </a>
+                                </div>
+                                <div id="mapa" data-latitud="-38.6969361" data-longitud="-71.761024">
+                                    
+                                </div>
+                            </div>    
                         </div>
                         <div class="carrusel-item">
                             <h3>Plaza Central Vilcun</h3>
                             <li id="parrafo">En la plaza central de vilcun podras pasar un rato confortable y relajante junto a grandes arboles y zonas verdes, en las cercanias del lugar encontraras locales en donde puedes comprar un helado, comida, accesorios, entre otras cosas para pasar un momento agradable</li>
-                            <a>
-                            <img class= "imagenes" src="https://scontent.fscl9-1.fna.fbcdn.net/v/t1.6435-9/184285415_1301557960246702_6862342113599247893_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=8631f5&_nc_ohc=GRVYPQ1lNgQAX_bz4Ax&_nc_oc=AQlJvN8_G0fMNMz2HpVJ-rd100XFaJdQ18eA4OQdDVTU_lNZcIOFvsqYY_XmisCSQFI&_nc_ht=scontent.fscl9-1.fna&oh=00_AfBVxfivYxpP-3X940ZH41666_buZi7P8VbtDxxpuOU-eQ&oe=65385F95" alt="Plaza de Vilcun"><br>
-                            </a>
+                            <div>
+                                <a>
+                                <img class= "imagen" src="https://scontent.fscl9-1.fna.fbcdn.net/v/t1.6435-9/184285415_1301557960246702_6862342113599247893_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=8631f5&_nc_ohc=GRVYPQ1lNgQAX_bz4Ax&_nc_oc=AQlJvN8_G0fMNMz2HpVJ-rd100XFaJdQ18eA4OQdDVTU_lNZcIOFvsqYY_XmisCSQFI&_nc_ht=scontent.fscl9-1.fna&oh=00_AfBVxfivYxpP-3X940ZH41666_buZi7P8VbtDxxpuOU-eQ&oe=65385F95" alt="Plaza de Vilcun"><br>
+                                </a>
+                            </div>
+                            <div>
+                                <a>
+                                <img class= "imagen" src="https://scontent.fscl9-1.fna.fbcdn.net/v/t1.6435-9/184285415_1301557960246702_6862342113599247893_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=8631f5&_nc_ohc=GRVYPQ1lNgQAX_bz4Ax&_nc_oc=AQlJvN8_G0fMNMz2HpVJ-rd100XFaJdQ18eA4OQdDVTU_lNZcIOFvsqYY_XmisCSQFI&_nc_ht=scontent.fscl9-1.fna&oh=00_AfBVxfivYxpP-3X940ZH41666_buZi7P8VbtDxxpuOU-eQ&oe=65385F95" alt="Plaza de Vilcun"><br>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -164,6 +179,6 @@
     <!-- Enlace al archivo JavaScript que controla el carrusel -->
     <script src="../Scripts/carrusel.js"></script>
     <script src = "../Scripts/script.js"></script>
-    
+    <script src = "../Scripts/google-maps.js"></script>
 </body>
 </html>  

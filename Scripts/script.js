@@ -20,3 +20,7 @@ sitios.addEventListener("mouseover", function() {MuestraDescripcion("Sitios tur√
 sitios.addEventListener("mouseout", function() {RestaurarDescripcion("Categorias")});
 cultura.addEventListener("mouseover", function() {MuestraDescripcion("Cultura")});
 cultura.addEventListener("mouseout", function() {RestaurarDescripcion("Categorias")});
+
+
+//-------------------Api Google Maps----------------//
+

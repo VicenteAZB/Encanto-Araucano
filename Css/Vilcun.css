@@ -196,10 +196,11 @@ section#cultura img {
     position: relative; /* Hacemos que el contenedor sea relativo para que los botones se posicionen en relación con él */
 }
 .imagen{
-    border-radius: 50px;
-    margin-top: 30px;
-    width: 100%; 
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 
 /* Estilos para el contenedor interno de elementos del carrusel */
@@ -215,4 +216,21 @@ section#cultura img {
     border: 5px solid #ccc; /* Agrega un borde delgado con color gris */
     box-sizing: border-box; /* Hace que el tamaño incluya el borde (box-sizing: border-box) */
     padding: 20px; /* Agrega un espacio interno de 20px alrededor del contenido */
+}
+.division{
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Dos columnas */
+    gap: 20px; /* Espacio de 20 píxeles entre las celdas */
+    justify-items: center; /* Centra horizontalmente los elementos */
+    align-items: center; /* Centra verticalmente los elementos */
+    
+}
+.division div{
+    background-color: transparent;
+    width: 100%;
+    height: 100%;   
+}
+#mapa{
+    width: 100%;
+    height: 100%;
 }
