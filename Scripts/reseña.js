@@ -15,39 +15,7 @@ function addReview() {
         alert('Por favor, ingresa un nombre válido (solo letras y espacios, entre 2 y 50 caracteres).');
         return;
     }
-
-    const reviewList = document.getElementById('reviewsList');
-    const li = document.createElement('li');
-    li.innerHTML = `
-        <div class="review">
-            <div class="review-close" onclick="confirmDelete(this)">×</div>
-            <div class="review-user">${name}</div>
-            <div class="review-text">${review}</div>
-        </div>`;
-
-    
-    reviewList.appendChild(li);
-
-   
-    document.getElementById('reviewForm').reset();
 }
-
-function confirmDelete(deleteButton) {
-    if (confirm('¿Desea eliminar este comentario?')) {
-        const review = deleteButton.parentElement;
-        review.remove();
-    }
-}
-
 
 const reviewForm = document.getElementById('reviewForm');
-reviewForm.addEventListener('submit', function(event) {
-    event.preventDefault();
-    addReview();
-});
-
-
-
-
-
-
+reviewForm.addEventListener('submit', addReview);

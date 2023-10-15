@@ -4,10 +4,16 @@
         <img src="../Imágenes/logo.png" alt="logo">
     </div>
     <nav>
-        <ul id="menú">
+    <ul id="menú">
             <li class="cat"><a href="Encanto Araucano.php">Home</a></li>
-            <li class="cat"><a href="#">Sobre Nosotros</a></li>
-            <li class="cat"><a href="../PHP/contacto.php">Registrarse</a></li>
+            <?php
+                if (isset($_SESSION['usuario'])) {
+                    echo '<li class="cat"><a href="cerrar_sesion_BE.php">Cerrar Sesión</a> </li>';
+                }else{
+                    echo '<li class="cat"><a href="contacto.php">Iniciar Sesión</a> </li>';
+                }
+            ?>
+            <li class="cat"><a href="../PHP/reseña.php">Reseñas</a></li>
         </ul>
     </nav>
     <div class="box">

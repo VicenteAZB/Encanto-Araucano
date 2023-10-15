@@ -1,9 +1,6 @@
 <?php
-
     session_start();
-
     include 'conexion_BE.php';
-
     $correo = $_POST['correo'];
     $contrasena = $_POST['password'];
     $contrasena = hash('sha512', $contrasena);
@@ -12,7 +9,7 @@
 
     if(mysqli_num_rows($validate) > 0){
         $_SESSION['usuario'] = $correo;
-        header("location: formulario.php");
+        header("location: Encanto%20Araucano.php");
         exit;
     }else{
         echo '

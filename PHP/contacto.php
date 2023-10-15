@@ -1,23 +1,18 @@
 <?php
-
 session_start();
 if (isset($_SESSION['usuario'])) {
-    header("location: formulario.php");
+    header("location: reseña.php");
 }
-
 ?>
-
 
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login & Register Encanto Araucano</title>
     <link rel="stylesheet" href="../Css/form.css">
 </head>
-
 <body>
     <?php
         include 'Header.php'
@@ -49,14 +44,13 @@ if (isset($_SESSION['usuario'])) {
                     <input type="text" placeholder="Ingrese su nombre completo" name="nombre_completo" required>
                     <input type="email" placeholder="Ingrese su correo electrónico" name="correo" required>
                     <input type="text" placeholder="Ingrese un nombre de usuario" name="usuario" required>
-                    <input type="password" class="passwrd" id="InputPassRegister" placeholder="Ingrese su contraseña" name="password" required>
+                    <input type="password" class="passwrd" id="InputPassRegister" placeholder="Ingrese su contraseña" name="contrasena" required>
                     <img src="../Imágenes/show.png" alt="" class="icon-register" id="Ojo2">
-                    <button onclick="validarPassword(document.registro.contrasena)">Registrarse</button>
+                    <button id="btnreg">Registrarse</button>
                 </form>
             </div>
         </div>
     </main>
     <script src="../Scripts/form.js"></script>
 </body>
-
 </html>

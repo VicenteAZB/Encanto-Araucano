@@ -21,7 +21,6 @@
             <a  id="img" href="#cultura"><img id="imagen4" src="../Imágenes/cultura.jpg" alt="Imagen 4"></a>
         </div>
     </div>
-
     <div class="div-info">
         <div class="info">
             <p>

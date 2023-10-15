@@ -1,5 +1,3 @@
-
-// Llama a iniciarMap cuando la página se carga
 window.addEventListener('load', iniciarMap);
 function iniciarMap() {
     var mapDiv = document.getElementById('mapa');

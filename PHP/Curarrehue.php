@@ -23,15 +23,12 @@
     <section id="gastronomia">
         <h2>Gastronomía de Curarrehue</h2>
     </section>
-
     <section id="entretenimiento">
         <h2>Entretenimiento en Curarrehue</h2>
     </section>
-
     <section id="sitios-turisticos">
         <h2>Sitios Turísticos en Curarrehue</h2>
     </section>
-
     <section id="cultura">
         <h2>Cultura de Curarrehue</h2>
     </section>

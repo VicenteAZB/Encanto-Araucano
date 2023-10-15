@@ -12,7 +12,6 @@
         include 'Header.php'
     ?>
     <h1>Ercilla</h1>
-    div
     <p id="descripcion">Categorias</p>
     <div class="hero">
         <div class="image-container">

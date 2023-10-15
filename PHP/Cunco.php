@@ -24,7 +24,6 @@
         <h2>Gastronomía de Cunco</h2>
         <p>La gastronomía de Cunco ofrece una variedad de platos tradicionales que reflejan la riqueza de la cultura
             local. Aquí se destacan sabores auténticos y recetas transmitidas de generación en generación.</p>
-
         <h3>Platos destacados</h3>
         <ul>
             <li>
@@ -43,9 +42,6 @@
                 <p>Rellenas de carne, pollo, queso u otros ingredientes, son una deliciosa opción para probar.</p>
             </li>
         </ul>
-
-
-
         <h3>Restaurantes</h3>
         <ul>
             <li><a href="https://www.restaurantranchoviejo.cl/" target="_blank" class="button">Rancho Viejo</a></li>
@@ -55,8 +51,6 @@
                     Wasi</a></li>
         </ul>
     </section>
-
-
     <section id="entretenimiento">
         <h2>Entretenimiento en Cunco</h2>
         <p>Cunco, en la región de Araucanía, Chile, ofrece una amplia gama de opciones de entretenimiento para residentes y visitantes. Desde actividades al aire libre hasta eventos culturales, hay algo para todos. Disfruta de emocionantes competiciones de triatlón en el idílico entorno de Colico o sumérgete en la naturaleza en el lago Cólico con experiencias únicas como Stand Up Paddle y Kayak. También puedes relajarte en las Termas San Sebastian o explorar la Plaza de Cunco, un encantador parque que es un paraíso para los amantes de la actividad física y el deporte.</p>

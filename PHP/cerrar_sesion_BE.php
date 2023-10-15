@@ -1,5 +1,5 @@
 <?php
     session_start();
     session_destroy();
-    header("location: contacto.php");
+    header("location: Encanto%20Araucano.php");
 ?>

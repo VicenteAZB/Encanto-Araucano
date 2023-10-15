@@ -1,21 +1,18 @@
-//Ejecutando funciones
 document.getElementById("btn__iniciar-sesion").addEventListener("click", iniciarSesion);
 document.getElementById("btn__registrarse").addEventListener("click", register);
 window.addEventListener("resize", anchoPage);
 
-//Declarando variables
 var formulario_login = document.querySelector(".formulario__login");
 var formulario_register = document.querySelector(".formulario__register");
 var contenedor_login_register = document.querySelector(".container-login");
 var caja_trasera_login = document.querySelector(".caja__trasera-login");
 var caja_trasera_register = document.querySelector(".caja__trasera-register");
-var ojo_login = document.getElementById('Ojo1')
-var ojo_register = document.getElementById('Ojo2')
-var input_pass_login = document.getElementById('InputPassLogin')
-var input_pass_register = document.getElementById('InputPassRegister')
+var ojo_login = document.getElementById('Ojo1');
+var ojo_register = document.getElementById('Ojo2');
+var input_pass_login = document.getElementById('InputPassLogin');
+var input_pass_register = document.getElementById('InputPassRegister');
+const btnreg = document.querySelector('#btnreg');
 
-
-    //FUNCIONES
 
 function anchoPage(){
 
@@ -68,34 +65,34 @@ function register(){
         caja_trasera_login.style.opacity = "1";
     }
 }
+  
+ojo_login.addEventListener("click", function(){
+    if(input_pass_login.type == "password"){
+        input_pass_login.type = "text"
+        ojo_login.style.opacity = 0.8
+    }else{
+        input_pass_login.type = "password"
+        ojo_login.style.opacity = 0.3
+    }
+})
 
-      
-
-    ojo_login.addEventListener("click", function(){
-        if(input_pass_login.type == "password"){
-            input_pass_login.type = "text"
-            ojo_login.style.opacity = 0.8
-        }else{
-            input_pass_login.type = "password"
-            ojo_login.style.opacity = 0.3
-        }
-    })
-
-    ojo_register.addEventListener("click", function(){
-        if(input_pass_register.type == "password"){
-            input_pass_register.type = "text"
-            ojo_register.style.opacity = 0.8
-        }else{
-            input_pass_register.type = "password"
-            ojo_register.style.opacity = 0.3
-        }
-    })  
+ojo_register.addEventListener("click", function(){
+    if(input_pass_register.type == "password"){
+        input_pass_register.type = "text"
+        ojo_register.style.opacity = 0.8
+    }else{
+        input_pass_register.type = "password"
+        ojo_register.style.opacity = 0.3
+    }
+})  
     
-    /*function validarPassword(password){
-        const decimal = /^(?=.*\d)(?=.*[a-z])(?=.*[^a-zA-Z0-9])(?!.*\s).{8,15}$/;
-    
-        if(password.value.match(decimal)) {
-            alert("¡La contaseña es segura!"); 
-        }else {
-            alert("La contraseña debe contener al menos 8 caracteres. Una minúscula, mayúscula, número y un carácter especial.");
-    }*/
+
+
+btnreg.addEventListener("click", (event) => {    
+    const decimal = /^(?=.*\d)(?=.*[a-z])(?=.*[^a-zA-Z0-9])(?!.*\s).{8,15}$/;    
+    var contraseña = document.registro.contrasena;
+    if(!(contraseña.value.match(decimal))) {
+        alert("La contraseña debe contener al menos 8 caracteres, una minúscula, un número y un carácter especial.");
+        event.preventDefault();
+    }
+})
