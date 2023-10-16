@@ -1,0 +1,199 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	color: #555;
+	font-family: "Nunito", sans-serif;
+    font-size: 20px;
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 100px 80px;
+}
+
+.grid{
+  width:100%;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+}
+hr{
+  width: 100%;
+  height:3px;
+  background-color:rgb(22, 178, 30);
+  opacity: 0.5;
+  margin-bottom: 50px;
+}
+
+section h3.title{
+  text-transform: capitalize;
+  font: bold 32px "Open Sans", sans-serif;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+section p{
+  max-width: 775px; 
+  line-height: 2;
+  padding: 0 20px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/*Hero Styles*/
+
+.hero {
+	position: relative;
+	justify-content: center;
+	text-align: center;
+	min-height: 100vh;
+	color: #fff;
+
+}
+
+.hero .background-image {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	z-index: -1;
+	background-color: #80a3db;
+}
+
+.hero h1 {
+	font: bold 60px "Open Sans", sans-serif;
+	margin-bottom: 15px;
+}
+
+.hero h3 {
+	font: normal 28px "Open Sans", sans-serif;
+	margin-bottom: 40px;
+}
+
+.hero a.btn {
+	padding: 20px 46px;
+}
+
+.hero-content-area {
+	opacity: 0;
+	margin-top: 100px;
+	animation: 1s slidefade 1s forwards;
+}
+
+
+@keyframes slidefade {
+	100% {
+		opacity: 1;
+		margin: 0;
+	}
+}
+
+
+.destinations .grid li{
+  height: 350px; 
+  padding: 20px;
+  background-clip: content-box;
+  background-size: cover;
+  background-position: center;
+}
+
+.destinations .grid li.small{
+  flex-basis: 30%;
+}
+.destinations .grid li.large{
+  flex-basis: 70%;
+}
+
+h3 {
+    color: rgb(0, 0, 0);
+}
+
+h3 img{
+	width: 50%;
+	height: auto;
+	margin-top: -10%;
+}
+
+.hero {
+    padding: 30px 20px 0px 20px;
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+}
+
+.image-container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.image-container a {
+    border-radius: 50px;
+    margin-top: 30px;
+    width: 23%; 
+    height: auto;
+}
+
+.image-container img {
+    border:2px solid#aebfd8;
+    width: 100%;
+    height: 100%; 
+    transition: transform 0.1s ease-in-out;
+}
+
+.image-container img:hover {
+    transform: scale(0.9);
+}
+
+.parrafos p{
+	text-align: left;
+	margin-right: 400px;
+	width: 50%;
+}
+.parrafos #imagen1 {
+	position: relative;
+	margin-left: 60%;
+	margin-top: -44.5%;
+	width: 100px;
+}
+
+.Donde img{
+	width: 50%;
+	height: auto;
+	margin-top: -60%;
+}
+
+.mapaubicacion {
+	border: 5px solid #555;
+}
+
+.Donde{
+	margin-top: -25%;
+}
+
+.slider{
+	margin-top: 5%;
+}
+
+.video{
+
+	margin-top: 2%;
+}
+
+.final{
+	margin-top: 6%;
+}
+.final img {
+	width: 4%;
+	height: auto;
+}

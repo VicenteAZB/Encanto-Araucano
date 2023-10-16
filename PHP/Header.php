@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="../Css/Header.css">
 <header class="header">
     <div class="logo">
-        <img src="../Imágenes/logo.png" alt="logo">
+        <img src="../Imágenes/Logo2.0.png" alt="logo">
     </div>
     <nav>
     <ul id="menú">

@@ -15,28 +15,6 @@
     <?php
         include 'Header.php'
     ?>
-    <!--<iframe src="../SliderCom/SliderMain.html" width="100%" height="800"></iframe>
-    
-    <div class="descubre">
-        <img src="../Imágenes/Descrubre la Region de la Araucania.png" alt="descubra">
-    </div>
-
-    <div class="GastronomiaAraucania">
-        <img src="../Imágenes/GastronomiaAraucania.jpg" alt="Comida">
-    </div>
-
-    <div class="visita">
-        <img src="../Imágenes/Visita.png" alt="">
-    </div>
-
-    <div class="esperanos">
-        <img src="../Imágenes/Teesperamos.png" alt="">
-    </div>
-
-    <div class="video-container">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/AlhznqqpaAk?si=Ce3hLK3o12EYhH7o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    </div> -->
-
     <div class="señalmap">
         <img src="../Imágenes/dondequieresir.png" alt="titulo">
     </div>

@@ -1,3 +1,15 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	color: #555;
+	font-family: "Nunito", sans-serif;
+    font-size: 20px;
+}
+
 #menú {
     list-style: none;
     background: rgb(22, 178, 30);
