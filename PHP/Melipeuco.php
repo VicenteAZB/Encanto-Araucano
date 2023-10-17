@@ -53,7 +53,7 @@
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12405.023063109304!2d-72.65650072305466!3d-38.98665871832717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9614e3b5aa217be7%3A0x96d79e02a33a891c!2zUGl0cnVmcXXDqW4sIEFyYXVjYW7DrWE!5e0!3m2!1ses-419!2scl!4v1697334147613!5m2!1ses-419!2scl" width="900" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
     <section id="gastronomia">
-        <h2>Gastronomía de Lumaco<</h2>
+        <h2>Gastronomía de Melipeuco<</h2>
 
         <hr>
         <div class="parrafos">
@@ -165,7 +165,7 @@
         </div>
     </section>
     <section id="cultura">
-        <h2>Cultura de Lumaco<</h2>
+        <h2>Cultura de Melipeuco<</h2>
 
         <hr>
         <div class="parrafos">
