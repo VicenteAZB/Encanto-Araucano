@@ -202,7 +202,7 @@
     </section>
     <script src = "../Scripts/script.js"></script>
         <h3 class="title">Galeria</h3>
-        <p>Conoce y descubre la belleza que ofrece Pitrufquen con nuestra galeria de imagenes</p>
+        <p>Conoce y descubre la belleza que ofrece Lautaro con nuestra galeria de imagenes</p>
         <hr>
         <ul class="grid">
           <li class="small" style="background-image: url('https://transantin.cl/wp-content/uploads/2021/05/pitrufquen-gr.jpg');"></li>
