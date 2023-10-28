@@ -187,8 +187,14 @@ h3 img{
 }
 
 .video{
-
+	width: 1270px; 
+	height: 645px;
 	margin-top: 2%;
+}
+
+.video iframe{
+	width: 1270px; 
+	height: 645px;
 }
 
 .final{
