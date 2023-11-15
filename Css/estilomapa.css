@@ -1,13 +1,14 @@
+
 .señalmap{
-  margin-bottom: 100px;
+  margin-bottom: 1px;
 }
 .container{
-    width: 100%;
+    width: 40%;
 }
 
 .container path {
-    fill: #99ffaa;
-    stroke: #ccbe00;
+    fill:rgb(22, 178, 30);
+    stroke:rgb(228, 228, 7);
     stroke-width: 2px;
 }
 

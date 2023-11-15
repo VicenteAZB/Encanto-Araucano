@@ -1,115 +1,291 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font: normal 16px sans-serif;
+	color: #555;
+}
+
+a.btn {
+	border-radius: 4px;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+	background-color: rgb(22, 178, 30);
+	opacity: 1;
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 100px 80px;
+}
+
+.grid{
+  width:100%;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+}
+
+hr{
+  width: 250px;
+  height:3px;
+  background-color:rgb(22, 178, 30);
+  border:0;
+  margin-bottom: 50px;
+}
+
+section h3.title{
+  text-transform: capitalize;
+  font: bold 32px "Open Sans", sans-serif;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+section p{
+  max-width: 775px; 
+  line-height: 2;
+  padding: 0 20px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/*Hero Styles*/
+
+.hero {
+	position: relative;
+	justify-content: center;
+	text-align: center;
+	min-height: 100vh;
+	color: #fff;
+}
+
+.hero .background-image {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	z-index: -1;
+	background-color: #80a3db;
+}
+
+.hero h1 {
+	font: bold 60px "Open Sans", sans-serif;
+	margin-bottom: 15px;
+}
+
+.hero h3 {
+	font: normal 28px "Open Sans", sans-serif;
+	margin-bottom: 40px;
+}
+
+.hero a.btn {
+	padding: 20px 46px;
+}
+
+.hero-content-area {
+	opacity: 0;
+	margin-top: 100px;
+	animation: 1s slidefade 1s forwards;
+}
+
+@keyframes slidefade {
+	100% {
+		opacity: 1;
+		margin: 0;
+	}
 }
 
 
-#nomcomunas {
-    font-size: 40px;
-    text-align: center;
+.destinations .grid li{
+  height: 350px; 
+  padding: 20px;
+  background-clip: content-box;
+  background-size: cover;
+  background-position: center;
+}
+
+.destinations .grid li.small{
+  flex-basis: 30%;
+}
+.destinations .grid li.large{
+  flex-basis: 70%;
+}
+
+h3 {
     color: rgb(0, 0, 0);
-    padding: 5px;
-    justify-content: center;
-    font-family: 'Gill Sans';
-    margin-bottom: 50px;
 }
 
-body {
-    background-image: url('../Imágenes/Volcan.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;  
-    background-size: cover;
-    height: 100vh;
-    display: flexbox;
-    justify-content: center;
-    text-align: center;
+h3 img{
+	width: 50%;
+	height: auto;
+	margin-top: -10%;
 }
 
-.titulo {
+.hero {
+    padding: 30px 20px 0px 20px;
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 14vh;
+    justify-content: space-between;
+    overflow: hidden;
 }
 
-.titulo img {
-    max-width: 30%;
+.image-container a {
+    border-radius: 50px;
+    margin-top: 30px;
+    width: 23%; 
+    height: auto;
+}
+
+.image-container img {
+    border:2px solid#aebfd8;
+    width: 100%;
+    height: auto; 
+    transition: transform 0.1s ease-in-out;
+}
+
+.image-container img:hover {
+    transform: scale(0.9);
+}
+
+.parrafos p{
+	text-align: justify;
+	margin-right: 700px;
+	width: 50%;
+	height: auto;
+}
+.parrafos #imagen1 {
+	position: relative;
+	margin-left: 60%;
+	margin-top: -44.5%;
+	width: 100px;
+}
+
+.Donde img{
+	width: 50%;
+	height: auto;
+	margin-top: -60%;
+}
+
+.mapaubicacion {
+	border: 5px solid #555;
+}
+
+.Donde{
+	margin-top: -25%;
+}
+
+.slider{
+	margin-top: 5%;
+}
+
+.video{
+
+	margin-top: 2%;
+}
+
+.final{
+	margin-top: 6%;
+}
+.final img {
+	width: 4%;
+	height: auto;
+}
+
+#imagen {
+    position: absolute;
+    width: 10%;
+    height: 150px;
+    top: 50px; /* Cambia el valor para ajustar la posición vertical */
+    left: 100px; /* Cambia el valor para ajustar la posición horizontal */
+}
+
+#imagen3 img{
+	position: absolute;
+    width: 30%;
+    height: auto;
+	margin-left: 55%;
+	top: 300%;
+
+}
+
+#imagen4 img{
+	position: absolute;
+    width: 30%;
+    height: auto;
+	margin-left: 55%;
+	top: 460%;
+
+}
+
+#imagen5 img{
+	position: absolute;
+    width: 25%;
+    height: auto;
+	margin-left: 60%;
+	top: 590%;
+
 }
 
 
-.titulos {
-    justify-content: center;
-    align-items: center;
-    height: 16vh;
+#imagen6 img{
+	position: absolute;
+    width: 30%;
+    height: auto;
+	margin-left: 55%;
+	top: 700%;
+
 }
 
-.titulos img {
-    max-width: 30%;
-}
+#imagen7 img{
+	position: absolute;
+    width: 25%;
+    height: auto;
+	margin-left: 55%;
+	top: 815%;
 
-.mapa {
-    width: 1000px;
-    height: 800px;
-    margin-top: 100px;
-}
-
-.señalmap {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 10vh;
-    margin-top: 50px;
-}
-
-.señalmap img {
-    max-width: 40%;
-}
-
-.container svg {
-    height:574.10001px;
-    width:600px;
 }
 
 #imgcomunas{
+	position: absolute;
     border-radius: 20px;
-    margin-bottom: 87px;
-    width: 600px;
-    height: 400px;
+    margin-bottom: 10%;
+	margin-left: 10%;
+    width: 27%;
+    height: auto;
 }
 
-@media screen and (max-width: 700px){
-
-    #nomcomunas{
-        font-size: 28px;
-    }
-
-    .container svg {
-        height:474.10001px;
-        width:500px;
-    }
-
-    #imgcomunas{
-        margin-top: 30px;
-        width: 500px;
-        height: 300px;
-    }
+.textofinal {
+	margin-top: 5%;
+	width: 80%;
 }
 
-@media screen and (max-width: 536px){
-
-    #nomcomunas{
-        font-size: 20px;
-    }
-    
-    .container svg {
-        height:274.10001px;
-        width:300px;
-    }   
-
-    #imgcomunas{
-        margin-top: 30px;
-        width: 300px;
-        height: 150px;
-    }
+.textofinal2 {
+	margin-top: 5%;
+	width: 80%;
 }
+
+
+.container{
+	margin-right:40%;
+
+}
+
+iframe {
+    border: none;
+  }

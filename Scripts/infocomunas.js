@@ -38,12 +38,12 @@ document.addEventListener('DOMContentLoaded', function() {
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12405.023063109304!2d-72.65650072305466!3d-38.98665871832717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9614e3b5aa217be7%3A0x96d79e02a33a891c!2zUGl0cnVmcXXDqW4sIEFyYXVjYW7DrWE!5e0!3m2!1ses-419!2scl!4v1697334147613!5m2!1ses-419!2scl" width="900" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`;
       
       gastronomia.innerHTML = `
-      <h2></h2>
+      <h2>Gastronomia</h2>
       <hr>
       <div class='parrafos'>
           <p></p>
           <div id='imagen1'>
-              <img src='../Imágenes/ alt=''/>
+              <img src='../Imágenes/' alt=''/>
           </div>
           <div class='container'>
               <div class='slider-wrapper'>
@@ -180,27 +180,31 @@ document.addEventListener('DOMContentLoaded', function() {
       gastronomia.innerHTML = `
       <h2></h2>
       <hr>
-      <div class='parrafos'>
+      <div class="parrafos">
           <p></p>
-          <div id='imagen1'>
-              <img src='../Imágenes/ alt=''/>
+          <div id="imagenp">
+              <img src="../Imágenes/" alt="">
           </div>
-          <div class='container'>
-              <div class='slider-wrapper'>
-                <button id='prev-slide' class='slide-button material-symbols-rounded'>
-                </button>
-                <ul class='image-list'>
-                  <img class='image-item' src='../Imágenes/' alt='' />
+          <div class="container">
+            <div class="slider-wrapper">
+              <button id="prev-slide" class="slide-button material-symbols-rounded">
+              </button>
+                <ul class="image-list">
+                  <img class="image-item" src="../Imágenes/curacautin.jpeg" alt="" />
+                  <img class="image-item" src="../Imágenes/curacautin.jpeg" alt="" />
+                  <img class="image-item" src="../Imágenes/curacautin.jpeg" alt="" />
+                  <img class="image-item" src="../Imágenes/curacautin.jpeg" alt="" />
+                  <img class="image-item" src="../Imágenes/curacautin.jpeg" alt="" />
                 </ul>
-                <button id='next-slide' class='slide-button material-symbols-rounded'>
-                </button>
-              </div>
-              <div class='slider-scrollbar'>
-                <div class='scrollbar-track'>
-                  <div class='scrollbar-thumb'></div>
-                </div>
+              <button id="next-slide" class="slide-button material-symbols-rounded">
+              </button>
+            </div>
+            <div class="slider-scrollbar">
+              <div class="scrollbar-track">
+                <div class="scrollbar-thumb"></div>
               </div>
             </div>
+          </div>
       </div>`;
 
       entretenimiento.innerHTML = `        
@@ -208,16 +212,20 @@ document.addEventListener('DOMContentLoaded', function() {
       <hr>
       <div class="parrafos">
           <p></p>
-          <div id="imagen1">
+          <div id="imagenp">
               <img src="../Imágenes/" alt="">
           </div>
           <div class="container">
             <div class="slider-wrapper">
               <button id="prev-slide" class="slide-button material-symbols-rounded">
               </button>
-              <ul class="image-list">
-                <img class="image-item" src="../Imágenes/" alt="" />
-              </ul>
+                <ul class="image-list">
+                  <img class="image-item" src="../Imágenes/curacautin.jpeg" alt="" />
+                  <img class="image-item" src="../Imágenes/curacautin.jpeg" alt="" />
+                  <img class="image-item" src="../Imágenes/curacautin.jpeg" alt="" />
+                  <img class="image-item" src="../Imágenes/curacautin.jpeg" alt="" />
+                  <img class="image-item" src="../Imágenes/curacautin.jpeg" alt="" />
+                </ul>
               <button id="next-slide" class="slide-button material-symbols-rounded">
               </button>
             </div>
@@ -260,7 +268,7 @@ document.addEventListener('DOMContentLoaded', function() {
       <hr>
       <div class="parrafos">
           <p></p>
-          <div id="imagen1">
+          <div id="imagenp">
               <img src="../Imágenes/" alt="">
           </div>
           <div class="container">

@@ -32,105 +32,105 @@ comunaPaths.forEach(function(path) {
     var comunaId = path.id;
     MuestraDescripcion(comunaId);
     if (comunaId === 'Pitrufquén') {
-      mostrarcomuna("../imágenes/pitrufquen.jpg");
+      mostrarcomuna("../imágenes/pitrufquen.svg");
 
     } else if (comunaId === 'Carahue') {
-      mostrarcomuna("../imágenes/carahue.jpeg");
+      mostrarcomuna("../imágenes/carahue.svg");
 
     } else if (comunaId === 'Cunco') {
-      mostrarcomuna("../imágenes/cunco.jpeg");
+      mostrarcomuna("../imágenes/cunco.svg");
 
     } else if (comunaId === 'Gorbea') {
-      mostrarcomuna("../imágenes/gorbea.jpg");
+      mostrarcomuna("../imágenes/gorbea.svg");
       
     } else if (comunaId === 'Galvarino') {
-      mostrarcomuna("../imágenes/galvarino.jpeg");
+      mostrarcomuna("../imágenes/galvarino.svg");
 
     } else if (comunaId === 'Perquenco') {
-      mostrarcomuna("../imágenes/perquenco.jpg");
+      mostrarcomuna("../imágenes/perquenco.svg");
 
     } else if (comunaId === 'Lautaro') {
-      mostrarcomuna("../imágenes/lautaro.jpeg");
+      mostrarcomuna("../imágenes/lautaro.svg");
 
     } else if (comunaId === 'Cholchol') {
-      mostrarcomuna("../imágenes/cholchol.jpg");
+      mostrarcomuna("../imágenes/cholchol.svg");
 
     } else if (comunaId === 'Vilcún') {
-      mostrarcomuna("../imágenes/vilcun.jpg");
+      mostrarcomuna("../imágenes/vilcun.svg");
 
     } else if (comunaId === 'Temuco') {
-      mostrarcomuna("../imágenes/temuco.jpg");
+      mostrarcomuna("../imágenes/temuco.svg");
 
     } else if (comunaId === 'Melipeuco') {
-      mostrarcomuna("../imágenes/melipeuco.jpeg");
+      mostrarcomuna("../imágenes/melipeuco.svg");
     
     } else if (comunaId === 'Padre Las Casas') {
-      mostrarcomuna("../imágenes/PLC.jpg");
+      mostrarcomuna("../imágenes/PLC.svg");
 
     } else if (comunaId === 'Nueva Imperial') {
-      mostrarcomuna("../imágenes/nueva imperial.jpg");
+      mostrarcomuna("../imágenes/nueva imperial.svg");
 
     } else if (comunaId === 'Teodoro Schmidt') {
-      mostrarcomuna("../imágenes/teodoro.jpg");
+      mostrarcomuna("../imágenes/teodoro.svg");
 
     } else if (comunaId === 'Curarrehue') {
-      mostrarcomuna("../imágenes/curarrehue.jpg");
+      mostrarcomuna("../imágenes/curarrehue.svg");
 
     } else if (comunaId === 'Toltén') {
-      mostrarcomuna("../imágenes/tolten.jpg");
+      mostrarcomuna("../imágenes/tolten.svg");
 
     } else if (comunaId === 'Pucón') {
-      mostrarcomuna("../imágenes/pucon.jpg");
+      mostrarcomuna("../imágenes/pucon.svg");
 
     } else if (comunaId === 'Villarrica') {
-      mostrarcomuna("../imágenes/villarrica.jpg");
+      mostrarcomuna("../imágenes/villarrica.svg");
 
     } else if (comunaId === 'Loncoche') {
-      mostrarcomuna("../imágenes/loncoche.webp");
+      mostrarcomuna("../imágenes/loncoche.svg");
 
     } else if (comunaId === 'Puerto Saavedra') {
-      mostrarcomuna("../imágenes/puerto_savedra.jpg");
+      mostrarcomuna("../imágenes/puerto_savedra.svg");
 
     } else if (comunaId === 'Renaico') {
-      mostrarcomuna("../imágenes/renaico.png");
+      mostrarcomuna("../imágenes/renaico.svg");
 
     } else if (comunaId === 'Collipulli') {
-      mostrarcomuna("../imágenes/collipulli.jpg");
+      mostrarcomuna("../imágenes/collipulli.svg");
 
     } else if (comunaId === 'Angol') {
-      mostrarcomuna("../imágenes/angol.jpg");
+      mostrarcomuna("../imágenes/angol.svg");
 
     } else if (comunaId === 'Los Sauces') {
-      mostrarcomuna("../imágenes/los sauces.jpg");
+      mostrarcomuna("../imágenes/los sauces.svg");
 
     } else if (comunaId === 'Purén') {
-      mostrarcomuna("../imágenes/puren.jpg");
+      mostrarcomuna("../imágenes/puren.svg");
 
     } else if (comunaId === 'Ercilla') {
-      mostrarcomuna("../imágenes/ercilla.jpg");
+      mostrarcomuna("../imágenes/ercilla.svg");
 
     } else if (comunaId === 'Lonquimay') {
-      mostrarcomuna("../imágenes/lonquimay.jpeg");
+      mostrarcomuna("../imágenes/lonquimay.svg");
 
     } else if (comunaId === 'Freire') {
-      mostrarcomuna("../imágenes/freire.jpg");
+      mostrarcomuna("../imágenes/freire.svg");
 
     } else if (comunaId === 'Traiguén') {
-      mostrarcomuna("../imágenes/traiguen.jpg");
+      mostrarcomuna("../imágenes/traiguen.svg");
 
     } else if (comunaId === 'Lumaco') {
-      mostrarcomuna("../imágenes/lumaco.jpg");
+      mostrarcomuna("../imágenes/lumaco.svg");
 
     } else if (comunaId === 'Victoria') {
-      mostrarcomuna("../imágenes/victoria.jpg");
+      mostrarcomuna("../imágenes/victoria.svg");
 
     } else if (comunaId === 'Curacautin') {
-      mostrarcomuna("../imágenes/curacautin.jpeg");
+      mostrarcomuna("../imágenes/curacautin.svg");
     }
 
   path.addEventListener('mouseout', function() {
     RestaurarDescripcion("&nbsp");
-    mostrarcomuna("../Imágenes/logof.png");
+    mostrarcomuna("../Imágenes/logo2.0.png");
   });
   });
 });
