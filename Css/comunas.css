@@ -40,7 +40,7 @@ section h3.title{
 }
 
 section p{
-  max-width: 775px; 
+  max-width: 100%; 
   line-height: 2;
   padding: 0 20px;
   margin-bottom: 30px;
@@ -156,15 +156,20 @@ h3 img{
 }
 
 .parrafos p{
-	text-align: left;
-	margin-right: 400px;
-	width: 50%;
+	text-align: justify;
 }
-.parrafos #imagen1 {
+
+#imagen1{
+	align-items: center;
+	text-align: center;
+	margin-bottom: 3%;
+}
+#imagenH {
 	position: relative;
-	margin-left: 60%;
-	margin-top: -44.5%;
-	width: 100px;
+	align-items: center;
+	width: 300px;
+	height: 300px;
+	border-radius: 20px;
 }
 
 .Donde img{

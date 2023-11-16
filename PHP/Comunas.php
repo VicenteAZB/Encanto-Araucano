@@ -27,10 +27,10 @@
     <h3 id="descripcion">Categorias</h3>
     <div class="hero">
         <div class="image-container">
-            <a id="img" href="#gastronomia"><img id="imagen1" src="https://tortillasnagual.com/wp-content/uploads/2022/09/gastronomia-mexicana-1024x704.jpg" alt="Imagen 1"></a>
-            <a id="img" href="#entretenimiento"><img id="imagen2" src="https://i0.wp.com/elplanetaurbano.com/wp-content/uploads/2023/06/tecnologia-del-entretenimiento-1.jpg?resize=1250%2C781&ssl=1" alt="Imagen 2"></a>
-            <a id="img" href="#sitios-turisticos"><img id="imagen3" src="https://www.bbva.com/wp-content/uploads/2020/12/turismo_sostenible.jpg" alt="Imagen 3"></a>
-            <a id="img" href="#cultura"><img id="imagen4" src="https://www.somosiberoamerica.org/wp-content/uploads/2022/09/Onda-Pais-Imagen-destacada.jpg" alt="Imagen 4"></a>
+            <a id="img" href="#gastronomia"><img id="imagen1" src="../Imágenes/comida_svg.svg" alt="Imagen 1"></a>
+            <a id="img" href="#entretenimiento"><img id="imagen2" src="../Imágenes/entretenimiento_svg.svg" alt="Imagen 2"></a>
+            <a id="img" href="#sitios-turisticos"><img id="imagen3" src="../Imágenes/sitiosturisticos_svg.svg" alt="Imagen 3"></a>
+            <a id="img" href="#cultura"><img id="imagen4" src="../Imágenes/cultura_svg.svg" alt="Imagen 4"></a>
         </div>
     </div>
 

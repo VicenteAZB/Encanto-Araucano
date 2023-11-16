@@ -17,6 +17,10 @@
         </ul>
     </nav>
     <div class="box">
-        <a href="Encanto Araucano.php"><img src="../Imágenes/logomapa.jpg" alt=""></a>
+        <input type="text" placeholder="Search...">
+        <a href="#">
+            <i class="fas fa-search"></i>
+        </a>
+        <img src="https://cdn-icons-png.flaticon.com/512/25/25313.png" alt="lupa">
     </div>    
 </header> 
