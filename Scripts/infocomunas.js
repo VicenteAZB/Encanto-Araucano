@@ -1712,7 +1712,7 @@ document.addEventListener('DOMContentLoaded', function() {
       <div class="hero-content-area">
         <h1><img src="../Imágenes/logo3.png" alt=""></h1>
         <center><hr></center>
-        <h3><img src='../Imágenes/' alt=''/>h3>
+        <h3><img src='../Imágenes/' alt=''/<h3>
       </div>`;
       
       ubicacion.innerHTML = ` 
@@ -1852,7 +1852,7 @@ document.addEventListener('DOMContentLoaded', function() {
       <div class="hero-content-area">
         <h1><img src="../Imágenes/logo3.png" alt=""></h1>
         <center><hr></center>
-        <h3><img src='../Imágenes/' alt=''/>h3>
+        <h3><img src='../Imágenes/' alt=''/<h3>
       </div>`;
       
       ubicacion.innerHTML = ` 
@@ -1864,10 +1864,11 @@ document.addEventListener('DOMContentLoaded', function() {
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d67762.05187628834!2d-72.23073723138435!3d-38.66756752485245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9614afd72782867d%3A0xbafe870ad0a74e0!2zVmlsY3VuLCBWaWxjw7puLCBBcmF1Y2Fuw61h!5e0!3m2!1ses-419!2scl!4v1700090055371!5m2!1ses-419!2scl" width="900" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`;
       
       gastronomia.innerHTML = `
-      <h2></h2>
+      <h2>Gastronomia de Vilcún</h2>
       <hr>
       <div class="parrafos">
-          <p></p>
+          <p>La gastronomía de Vilcun ofrece una variedad de platos tradicionales que reflejan la riqueza de la cultura
+          local. Aquí se destacan sabores auténticos y recetas transmitidas de generación en generación.</p>
           <div id="imagen1">
               <img id="imagenH" src="../Imágenes/comida_svg.svg" alt="Sección de gastronomía"/>
           </div>
@@ -1876,7 +1877,11 @@ document.addEventListener('DOMContentLoaded', function() {
               <button id="prev-slide" class="slide-button material-symbols-rounded">
               </button>
               <ul class="image-list">
-                <img class="image-item" src="../Imágenes/" alt="" />
+                <a href="https://www.facebook.com/p/Restaurant-La-Guitarra-100076085353002/?_rdc=2&_rdr"><img class="image-item" src="../Imágenes/la_guitarra.jpg" alt="" /></a>
+                <a href="https://www.instagram.com/todorikovilcun/"><img class="image-item" src="../Imágenes/todoriko_vilcun.jpg" alt="" /></a>
+                <a href="https://la-super-chorri.negocio.site/?utm_source=gmb&utm_medium=referral"><img class="image-item" src="../Imágenes/la_super_chorri.jpg" alt="" /></a>
+                <a href="https://www.facebook.com/p/Restaurant-La-Guitarra-100076085353002/?_rdc=2&_rdr"><img class="image-item" src="../Imágenes/la_guitarra.jpg" alt="" /></a>
+                <a href="https://www.instagram.com/todorikovilcun/"><img class="image-item" src="../Imágenes/todoriko_vilcun.jpg" alt="" /></a>
               </ul>
               <button id="next-slide" class="slide-button material-symbols-rounded">
               </button>
@@ -1890,10 +1895,11 @@ document.addEventListener('DOMContentLoaded', function() {
       </div>`;
 
       entretenimiento.innerHTML=`
-      <h2></h2>
+      <h2>Entretenimiento de Vilcún</h2>
       <hr>
       <div class="parrafos">
-          <p></p>
+          <p>Vilcun ofrece una amplia variedad de opciones de entretenimiento para residentes y visitantes. 
+          Algunas de las actividades de entretenimiento populares incluyen:</p>
           <div id="imagen1">
               <img id="imagenH" src="../Imágenes/entretenimiento_svg.svg" alt="Sección de entretenimiento"/>
           </div>
@@ -1902,7 +1908,11 @@ document.addEventListener('DOMContentLoaded', function() {
               <button id="prev-slide" class="slide-button material-symbols-rounded">
               </button>
               <ul class="image-list">
-                <img class="image-item" src="../Imágenes/" alt="" />
+                <a href="https://rnvv.sernageomin.cl/volcan-llaima/"><img class="image-item" src="../Imágenes/volcan_llaima.jpg" alt="" /></a>
+                <a href="https://www.google.com/maps/place/Plaza+Central+Vilcun/@-38.6705749,-72.226619,17z/data=!3m1!4b1!4m6!3m5!1s0x9614b3ed7b474b8d:0x4068cbf44d634193!8m2!3d-38.6705791!4d-72.2240768!16s%2Fg%2F11cs28mqvr?entry=ttu"><img class="image-item" src="../Imágenes/plaza_vilcun.jpg" alt="" /></a>
+                <a href="https://rnvv.sernageomin.cl/volcan-llaima/"><img class="image-item" src="../Imágenes/volcan_llaima.jpg" alt="" /></a>
+                <a href="https://www.google.com/maps/place/Plaza+Central+Vilcun/@-38.6705749,-72.226619,17z/data=!3m1!4b1!4m6!3m5!1s0x9614b3ed7b474b8d:0x4068cbf44d634193!8m2!3d-38.6705791!4d-72.2240768!16s%2Fg%2F11cs28mqvr?entry=ttu"><img class="image-item" src="../Imágenes/plaza_vilcun.jpg" alt="" /></a>
+                <a href="https://rnvv.sernageomin.cl/volcan-llaima/"><img class="image-item" src="../Imágenes/volcan_llaima.jpg" alt="" /></a>
               </ul>
               <button id="next-slide" class="slide-button material-symbols-rounded">
               </button>
@@ -1916,10 +1926,10 @@ document.addEventListener('DOMContentLoaded', function() {
       </div>`;
 
       sitios.innerHTML = `
-      <h2></h2>
+      <h2>Sitios de Vilcún</h2>
       <hr>
       <div class="parrafos">
-          <p></p>
+          <p>Los sitios turisticos en Vilcún, Chile, se destaca por su atmósfera local y acogedora, ya que al tratarse de una comuna pequeña, se fomenta una estrecha conexión entre sus habitantes.</p>
           <div id="imagen1">
               <img id="imagenH" src="../Imágenes/sitiosturisticos_svg.svg" alt="Sección de sitios turísticos"/>
           </div>
@@ -1928,7 +1938,12 @@ document.addEventListener('DOMContentLoaded', function() {
               <button id="prev-slide" class="slide-button material-symbols-rounded">
               </button>
               <ul class="image-list">
-                <img class="image-item" src="../Imágenes/" alt="" />
+                <a href="https://www.kutralkura.cl/servicios/cherquenco-expediciones?lang=pt"><img class="image-item" src="../Imágenes/cherquenco_expediciones.jpg" alt="" /></a>
+                <a href="https://www.airbnb.cl/rooms/33607728?guests=1&adults=1&s=13&unique_share_id=3de08352-1ace-4d66-946d-a9b04204c001&_set_bev_on_new_domain=1700245954_NDljMTczMTViMWU2&source_impression_id=p3_1700245955_wnOfXCIQYqTAdAAS"><img class="image-item" src="../Imágenes/cabaña_con_tinaja.jpg" alt="" /></a>
+                <a href="https://www.kutralkura.cl/servicios/cherquenco-expediciones?lang=pt"><img class="image-item" src="../Imágenes/cherquenco_expediciones.jpg" alt="" /></a>
+                <a href="https://www.airbnb.cl/rooms/33607728?guests=1&adults=1&s=13&unique_share_id=3de08352-1ace-4d66-946d-a9b04204c001&_set_bev_on_new_domain=1700245954_NDljMTczMTViMWU2&source_impression_id=p3_1700245955_wnOfXCIQYqTAdAAS"><img class="image-item" src="../Imágenes/cabaña_con_tinaja.jpg" alt="" /></a>
+                <a href="https://www.kutralkura.cl/servicios/cherquenco-expediciones?lang=pt"><img class="image-item" src="../Imágenes/cherquenco_expediciones.jpg" alt="" /></a>
+          
               </ul>
               <button id="next-slide" class="slide-button material-symbols-rounded">
               </button>
@@ -1942,10 +1957,10 @@ document.addEventListener('DOMContentLoaded', function() {
       </div>`;
 
       cultura.innerHTML = `
-      <h2></h2>
+      <h2>Cultura de Vilcún</h2>
       <hr>
       <div class="parrafos">
-          <p></p>
+          <p>La cultura en Vilcún, Chile, se destaca por su atmósfera local y acogedora, ya que al tratarse de una comuna pequeña, se fomenta una estrecha conexión entre sus habitantes.</p>
           <div id="imagen1">
               <img id="imagenH" src="../Imágenes/cultura_svg.svg" alt="Sección de cultura"/>
           </div>
@@ -1954,7 +1969,11 @@ document.addEventListener('DOMContentLoaded', function() {
               <button id="prev-slide" class="slide-button material-symbols-rounded">
               </button>
               <ul class="image-list">
-                <img class="image-item" src="../Imágenes/" alt="" />
+                <a href="https://www.facebook.com/profile.php?id=100083286395394"><img class="image-item" src="../Imágenes/estadio_vilcun.jpg" alt="" /></a>
+                <a href="https://www.conaf.cl/parques/parque-nacional-conguillio/"><img class="image-item" src="../Imágenes/parque_conguillio.jpg" alt="" /></a>
+                <a href="https://www.facebook.com/profile.php?id=100083286395394"><img class="image-item" src="../Imágenes/estadio_vilcun.jpg" alt="" /></a>
+                <a href="https://www.conaf.cl/parques/parque-nacional-conguillio/"><img class="image-item" src="../Imágenes/parque_conguillio.jpg" alt="" /></a>
+                <a href="https://www.facebook.com/profile.php?id=100083286395394"><img class="image-item" src="../Imágenes/estadio_vilcun.jpg" alt="" /></a>         
               </ul>
               <button id="next-slide" class="slide-button material-symbols-rounded">
               </button>
@@ -1970,13 +1989,13 @@ document.addEventListener('DOMContentLoaded', function() {
       galeriadescripcion.textContent = "";
       
       galeria.innerHTML = ` 
-      <li class="small" style="background-image: url('');"></li>
-      <li class="large" style="background-image: url('');"></li>
-      <li class="large" style="background-image: url('');"></li>
-      <li class="small" style="background-image: url('');"></li>`;
+      <li class="small" style="background-image: url('../Imágenes/galeria1.jpg');"></li>
+      <li class="large" style="background-image: url('../Imágenes/galeria2.jpg');"></li>
+      <li class="large" style="background-image: url('../Imágenes/galeria3.jpg');"></li>
+      <li class="small" style="background-image: url('../Imágenes/galeria4.jpg');"></li>`;
 
       video.innerHTML = `
-      <iframe src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/A734S2Lwp3Y?si=CxaCkuoIx9vFsnL6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
     }
 
 //Pucón---------------------------------------------------------------------------------------------------------------------------------------
@@ -1992,7 +2011,7 @@ document.addEventListener('DOMContentLoaded', function() {
       <div class="hero-content-area">
         <h1><img src="../Imágenes/logo3.png" alt=""></h1>
         <center><hr></center>
-        <h3><img src='../Imágenes/' alt=''/>h3>
+        <h3><img src='../Imágenes/' alt=''/<h3>
       </div>`;
       
       ubicacion.innerHTML = ` 
@@ -2004,10 +2023,11 @@ document.addEventListener('DOMContentLoaded', function() {
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24706.771728036783!2d-71.97977991393314!3d-39.28039256590872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96147f42351988d1%3A0x3c5c238b02dc5935!2zUHVjb24sIFB1Y8OzbiwgQXJhdWNhbsOtYQ!5e0!3m2!1ses-419!2scl!4v1700094706113!5m2!1ses-419!2scl" width="900" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`;
       
       gastronomia.innerHTML = `
-      <h2></h2>
+      <h2>La gastronomia en Pucon</h2>
       <hr>
       <div class="parrafos">
-          <p></p>
+          <p>La gastronomía de Pucón ofrece una variedad de platos tradicionales que reflejan la riqueza de la cultura
+          local. Aquí se destacan sabores auténticos y recetas transmitidas de generación en generación.</p>
           <div id="imagen1">
               <img id="imagenH" src="../Imágenes/comida_svg.svg" alt="Sección de gastronomía"/>
           </div>
@@ -2016,7 +2036,12 @@ document.addEventListener('DOMContentLoaded', function() {
               <button id="prev-slide" class="slide-button material-symbols-rounded">
               </button>
               <ul class="image-list">
-                <img class="image-item" src="../Imágenes/" alt="" />
+                <a href="https://www.instagram.com/puertopuconrestaurant/"><img class="image-item" src="../Imágenes/puerto_pucon.jpg" alt="" /></a>
+                <a href="https://www.instagram.com/rukapuconrestaurante/"><img class="image-item" src="../Imágenes/ruka_pucon.jpg" alt="" /></a>
+                <a href="https://elfogondepucon.cl/"><img class="image-item" src="../Imágenes/el_fogon.jpg" alt="" /></a>
+                <a href="https://www.instagram.com/puertopuconrestaurant/"><img class="image-item" src="../Imágenes/puerto_pucon.jpg" alt="" /></a>
+                <a href="https://www.instagram.com/rukapuconrestaurante/"><img class="image-item" src="../Imágenes/ruka_pucon.jpg" alt="" /></a>
+          
               </ul>
               <button id="next-slide" class="slide-button material-symbols-rounded">
               </button>
@@ -2030,10 +2055,10 @@ document.addEventListener('DOMContentLoaded', function() {
       </div>`;
 
       entretenimiento.innerHTML=`
-      <h2></h2>
+      <h2>Entretenimiento en Pucon</h2>
       <hr>
       <div class="parrafos">
-          <p></p>
+          <p>Pucón ofrece una amplia variedad de opciones de entretenimiento para residentes y visitantes. Algunas de las actividades de entretenimiento populares incluyen:</p>
           <div id="imagen1">
               <img id="imagenH" src="../Imágenes/entretenimiento_svg.svg" alt="Sección de entretenimiento"/>
           </div>
@@ -2042,7 +2067,11 @@ document.addEventListener('DOMContentLoaded', function() {
               <button id="prev-slide" class="slide-button material-symbols-rounded">
               </button>
               <ul class="image-list">
-                <img class="image-item" src="../Imágenes/" alt="" />
+                <a href="https://www.complejoturisticopucon.com/"><img class="image-item" src="../Imágenes/complejo_turistico.jpg" alt="" /></a>
+                <a href="https://www.booking.com/hotel/cl/cabana-equipada.es.html?aid=1237413&label=gog235jc-1DCAsoL0IPY2FiYW5hLWVxdWlwYWRhSAlYA2gviAEBmAEJuAEXyAEM2AED6AEB-AEEiAIBqAIDuAL0jeCqBsACAdICJDI2YjdiZjJiLWI1NjUtNDFlMi1iNDg4LWVmZGNlYmU5ZTA2NtgCBOACAQ&sid=6f94f57237eb72601e738d770438d9e6&dist=0&keep_landing=1&sb_price_type=total&type=total&"><img class="image-item" src="../Imágenes/cabaña_alto_bosque.jpg" alt="" /></a>
+                <a href="https://www.complejoturisticopucon.com/"><img class="image-item" src="../Imágenes/complejo_turistico.jpg" alt="" /></a>
+                <a href="https://www.booking.com/hotel/cl/cabana-equipada.es.html?aid=1237413&label=gog235jc-1DCAsoL0IPY2FiYW5hLWVxdWlwYWRhSAlYA2gviAEBmAEJuAEXyAEM2AED6AEB-AEEiAIBqAIDuAL0jeCqBsACAdICJDI2YjdiZjJiLWI1NjUtNDFlMi1iNDg4LWVmZGNlYmU5ZTA2NtgCBOACAQ&sid=6f94f57237eb72601e738d770438d9e6&dist=0&keep_landing=1&sb_price_type=total&type=total&"><img class="image-item" src="../Imágenes/cabaña_alto_bosque.jpg" alt="" /></a>
+                <a href="https://www.complejoturisticopucon.com/"><img class="image-item" src="../Imágenes/complejo_turistico.jpg" alt="" /></a>    
               </ul>
               <button id="next-slide" class="slide-button material-symbols-rounded">
               </button>
@@ -2056,10 +2085,11 @@ document.addEventListener('DOMContentLoaded', function() {
       </div>`;
 
       sitios.innerHTML = `
-      <h2></h2>
+      <h2>Sitios en Pucon</h2>
       <hr>
       <div class="parrafos">
-          <p></p>
+          <p>Los sitios turisticos en Pucon, Chile, se destacan por su atmósfera local y acogedora, ya que al tratarse de una comuna pequeña en poblacion, se fomenta una estrecha conexión entre sus habitantes.</p>
+          </p>
           <div id="imagen1">
               <img id="imagenH" src="../Imágenes/sitiosturisticos_svg.svg" alt="Sección de sitios turísticos"/>
           </div>
@@ -2068,7 +2098,11 @@ document.addEventListener('DOMContentLoaded', function() {
               <button id="prev-slide" class="slide-button material-symbols-rounded">
               </button>
               <ul class="image-list">
-                <img class="image-item" src="../Imágenes/" alt="" />
+                <a href="https://rukaglamping.cl/"><img class="image-item" src="../Imágenes/glamping.jpg" alt="" /></a>
+                <a href="https://www.facebook.com/lapozapucon"><img class="image-item" src="../Imágenes/mirador_la_poza.jpg" alt="" /></a>
+                <a href="https://rukaglamping.cl/"><img class="image-item" src="../Imágenes/glamping.jpg" alt="" /></a>
+                <a href="https://www.facebook.com/lapozapucon"><img class="image-item" src="../Imágenes/mirador_la_poza.jpg" alt="" /></a>
+                <a href="https://rukaglamping.cl/"><img class="image-item" src="../Imágenes/glamping.jpg" alt="" /></a>
               </ul>
               <button id="next-slide" class="slide-button material-symbols-rounded">
               </button>
@@ -2082,10 +2116,12 @@ document.addEventListener('DOMContentLoaded', function() {
       </div>`;
 
       cultura.innerHTML = `
-      <h2></h2>
+      <h2>Cultura de Pucon</h2>
       <hr>
       <div class="parrafos">
-          <p></p>
+          <p>La cultura de pucon La cultura de Pucón, se caracteriza por su arraigo en la naturaleza y el respeto por la tradición local. 
+          Influenciada por la herencia mapuche y la belleza de su entorno natural, la cultura de Pucón se refleja en festivales vibrantes y
+          se destaca por su espíritu aventurero.</p>
           <div id="imagen1">
               <img id="imagenH" src="../Imágenes/cultura_svg.svg" alt="Sección de cultura"/>
           </div>
@@ -2094,7 +2130,11 @@ document.addEventListener('DOMContentLoaded', function() {
               <button id="prev-slide" class="slide-button material-symbols-rounded">
               </button>
               <ul class="image-list">
-                <img class="image-item" src="../Imágenes/" alt="" />
+                <a href="https://www.facebook.com/pages/Parque-Municipal-Puc%C3%B3n/812624532428164"><img class="image-item" src="../Imágenes/parque_pucon.jpg" alt="" /></a>
+                <a href="https://www.facebook.com/pages/Playa-Pucon-Chile/138673552916123"><img class="image-item" src="../Imágenes/playa_pucon.jpg" alt="" /></a>
+                <a href="https://www.facebook.com/pages/Parque-Municipal-Puc%C3%B3n/812624532428164"><img class="image-item" src="../Imágenes/parque_pucon.jpg" alt="" /></a>
+                <a href="https://www.facebook.com/pages/Playa-Pucon-Chile/138673552916123"><img class="image-item" src="../Imágenes/playa_pucon.jpg" alt="" /></a>
+                <a href="https://www.facebook.com/pages/Parque-Municipal-Puc%C3%B3n/812624532428164"><img class="image-item" src="../Imágenes/parque_pucon.jpg" alt="" /></a>
               </ul>
               <button id="next-slide" class="slide-button material-symbols-rounded">
               </button>
@@ -2110,13 +2150,13 @@ document.addEventListener('DOMContentLoaded', function() {
       galeriadescripcion.textContent = "";
       
       galeria.innerHTML = ` 
-      <li class="small" style="background-image: url('');"></li>
-      <li class="large" style="background-image: url('');"></li>
-      <li class="large" style="background-image: url('');"></li>
-      <li class="small" style="background-image: url('');"></li>`;
+      <li class="small" style="background-image: url('../Imágenes/galeriap3.jpg');"></li>
+      <li class="large" style="background-image: url('../Imágenes/galeriap2.jpg');"></li>
+      <li class="large" style="background-image: url('../Imágenes/galeriap1.jpg');"></li>
+      <li class="small" style="background-image: url('../Imágenes/galeriap4.jpg');"></li>`;
 
       video.innerHTML = `
-      <iframe src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/NlxXRverQsg?si=DIiFlpSCJvLk7h24" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
     }
 
 //Traiguén------------------------------------------------------------------------------------------------------------------------------------
