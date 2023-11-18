@@ -616,7 +616,6 @@ document.addEventListener('DOMContentLoaded', function() {
               <button id="prev-slide" class="slide-button material-symbols-rounded">
               </button>
               <ul class="image-list">
-                <img class="image-item" src="../Imágenes/" alt="" />
                 <li><a href='https://www.facebook.com/lacavalonquimay'><img class='image-item' src='../Imágenes/la-cava.jpg' alt='' /></a></li>
                 <li><a href='https://araucaniasinfronteras.cl/hosteria-y-restaurant-donde-juancho-lonquimay/'><img class='image-item' src='../Imágenes/juancho.jpg' alt='' /></a></li>
                 <li><a href='https://www.facebook.com/rustikolonquimay/photos/hoyviernes/1475530842493088/?locale=es_LA'><img class='image-item' src='../Imágenes/rustiko.jpg' alt='' /></a></li>

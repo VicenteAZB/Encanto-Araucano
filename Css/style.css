@@ -1,3 +1,4 @@
+
 * {
 	margin: 0;
 	padding: 0;
@@ -7,22 +8,14 @@
 html {
 	font: normal 16px sans-serif;
 	color: #555;
-}
-
-a.btn {
-	border-radius: 4px;
-	text-transform: uppercase;
-	font-weight: bold;
-	text-align: center;
-	background-color: rgb(22, 178, 30);
-	opacity: 1;
+  width: 100%;
 }
 
 section {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 100px 80px;
+	padding: 80px;
 }
 
 .grid{
@@ -31,7 +24,6 @@ section {
   flex-wrap:wrap;
   justify-content: center;
 }
-
 hr{
   width: 250px;
   height:3px;
@@ -47,8 +39,7 @@ section h3.title{
   text-align: center;
 }
 
-section p{
-  max-width: 775px; 
+section p{ 
   line-height: 2;
   padding: 0 20px;
   margin-bottom: 30px;
@@ -72,8 +63,6 @@ section p{
 	width: 100%;
 	height: 100%;
 	background-size: cover;
-	z-index: -1;
-	background-color: #80a3db;
 }
 
 .hero h1 {
@@ -165,8 +154,6 @@ h3 img{
 
 .parrafos p{
 	text-align: justify;
-	margin-right: 700px;
-	width: 50%;
 	height: auto;
 }
 .parrafos #imagen1 {
@@ -194,14 +181,10 @@ h3 img{
 	margin-top: 5%;
 }
 
-.video{
-
-	margin-top: 2%;
-}
-
 .final{
 	margin-top: 6%;
 }
+
 .final img {
 	width: 4%;
 	height: auto;
@@ -211,73 +194,37 @@ h3 img{
     position: absolute;
     width: 10%;
     height: 150px;
-    top: 50px; /* Cambia el valor para ajustar la posición vertical */
-    left: 100px; /* Cambia el valor para ajustar la posición horizontal */
+    top: 50px; 
+    left: 100px; 
 }
 
-#imagen3 img{
-	position: absolute;
-    width: 30%;
-    height: auto;
-	margin-left: 55%;
-	top: 300%;
-
-}
-
-#imagen4 img{
-	position: absolute;
-    width: 30%;
-    height: auto;
-	margin-left: 55%;
-	top: 460%;
-
-}
-
-#imagen5 img{
-	position: absolute;
-    width: 25%;
-    height: auto;
-	margin-left: 60%;
-	top: 590%;
-
-}
-
-
-#imagen6 img{
-	position: absolute;
-    width: 30%;
-    height: auto;
-	margin-left: 55%;
-	top: 700%;
-
-}
-
-#imagen7 img{
-	position: absolute;
-    width: 25%;
-    height: auto;
-	margin-left: 55%;
-	top: 815%;
-
+.imagenes img{
+	position: relative;
+  width: 25%;
+  height: auto;
 }
 
 #imgcomunas{
 	position: absolute;
-    border-radius: 20px;
-    margin-bottom: 10%;
+  border-radius: 20px;
+  margin-bottom: 10%;
 	margin-left: 10%;
-    width: 27%;
-    height: auto;
+  width: 27%;
+  height: auto;
 }
 
 .textofinal {
+  text-align: justify;
 	margin-top: 5%;
 	width: 80%;
+  font: bold 15px "Open Sans", sans-serif;
 }
 
 .textofinal2 {
+  font-size: 30px;
 	margin-top: 5%;
 	width: 80%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 
@@ -289,3 +236,54 @@ h3 img{
 iframe {
     border: none;
   }
+
+.contenedor {
+  font-family: 'Muli', sans-serif;
+  overflow: hidden;
+  height: 100vh;
+  width: 90%;
+  display: flex;
+  padding: 60px;
+}
+
+.slide {
+  height: 80vh;
+  border-radius: 20px; 
+  border-style: groove;
+  margin: 5px;
+  cursor: pointer;
+  color: #fff;
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  transition: all 500ms ease-in;
+}
+
+.slide h3 {
+  position: absolute;
+  font-size: 40px;
+  bottom: 20px;
+  left: 20px;
+  margin: 0;
+  opacity: 0;
+  color: rgb(255, 255, 255);
+  background-color: rgba(2, 2, 2, 0.4);
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.slide.active {
+  flex: 10;
+}
+
+.slide:hover{
+  transform: scale(0.97);
+}
+
+.slide.active h3 {
+  opacity: 1;
+  transition: opacity 0.3s ease-in 0.4s;
+}
+

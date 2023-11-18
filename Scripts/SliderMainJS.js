@@ -2,7 +2,7 @@
 const imageSlider = document.querySelector(".image-slider");
 
 //sliderImages
-const sliderImages = document.querySelectorAll(".slide");
+const sliderImages = document.querySelectorAll(".carr");
 
 //SLider controls 
 const next = document.querySelector("#nextControl");

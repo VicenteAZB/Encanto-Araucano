@@ -1,8 +1,20 @@
 var comunaPaths = document.querySelectorAll('path');
 const nomcomunas = document.querySelector('#nomcomunas')
 const imgcomunas = document.querySelector('#imgcomunas')
+const slides = document.querySelectorAll(".slide");
 
+for (let slide of slides) {
+  slide.addEventListener('click', () => {
+    clearActiveClasses()
+    slide.classList.add('active')
+  })
+}
 
+function clearActiveClasses() {
+  slides.forEach((slide) => {
+    slide.classList.remove('active');
+  })
+}
     
 comunaPaths.forEach(function(path) {
   path.addEventListener('click', function() {
@@ -13,7 +25,6 @@ comunaPaths.forEach(function(path) {
     };
   });
 });
-
 
 function MuestraDescripcion(descripcion) {
   nomcomunas.innerHTML = descripcion;

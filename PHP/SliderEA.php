@@ -5,22 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SliderMain</title>
     <link rel="stylesheet" href="../Css/StyleSliderMain.css">
-    <script src="../Scripts/SliderMainJS.js" defer></script>
 </head>
 <body>
   
-    <section class="container">
+    <section class="containerslider">
         
       <div class="image-slider">
-      <img src="../Imágenes/mainpage2svg.svg" alt="" class="slide">
-      <img src="../Imágenes/mainpage1svg.svg" alt="" class="slide">
-      <img src="../Imágenes/mainpage3svg.svg" alt="" class="slide">
-      <img src="../Imágenes/mainpage4svg.svg" alt="" class="slide">
+      <img src="../Imágenes/mainpage2svg.svg" alt="" class="carr">
+      <img src="../Imágenes/mainpage1svg.svg" alt="" class="carr">
+      <img src="../Imágenes/mainpage3svg.svg" alt="" class="carr">
+      <img src="../Imágenes/mainpage4svg.svg" alt="" class="carr">
       </div>
       
       <div class="slider-controls">
-        <svg 
-             id="prevControl" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 12c0 6.627 5.373 12 12 12s12-5.373 12-12-5.373-12-12-12-12 5.373-12 12zm7.58 0l5.988-5.995 1.414 1.416-4.574 4.579 4.574 4.59-1.414 1.416-5.988-6.006z"/></svg>
+        <svg id="prevControl" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 12c0 6.627 5.373 12 12 12s12-5.373 12-12-5.373-12-12-12-12 5.373-12 12zm7.58 0l5.988-5.995 1.414 1.416-4.574 4.579 4.574 4.59-1.414 1.416-5.988-6.006z"/></svg>
         <svg id="nextControl" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1.568 18.005l-1.414-1.415 4.574-4.59-4.574-4.579 1.414-1.416 5.988 5.995-5.988 6.005z"/></svg>
       </div>
      
@@ -35,6 +33,6 @@
       <div class="overlay"></div>
     </section>
 
-    
+<script src="../Scripts/SliderMainJS.js"></script>    
 </body>
 </html>

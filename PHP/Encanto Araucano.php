@@ -7,9 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../Css/style.css">
-    <link rel="stylesheet" href="../Css/styleSlider.css">
     <link rel="stylesheet" href="../Css/estilomapa.css">
-    <script src="../Scripts/SliderComunasJS.js"></script>
     <title>Encanto Araucano</title>
     <link rel="icon" type="image/png" href="../Imágenes/Logo2.0.png">
 </head>
@@ -18,24 +16,23 @@
         include 'Header.php'
     ?> 
       <section class="hero">
-        <div class="background-image">
-            <iframe src="SliderMain.html" width="100%" height="1000"></iframe>
-            </div>
+          <div class="background-image">
+            <iframe src="SliderEA.php" width="100%" height="1000"></iframe>
+          </div>
           <div class="hero-content-area">
             <h1><img src="../Imágenes/logo3.png" alt=""></h1>
             <center><hr></center>
             <h3><img src="../Imágenes/sloganpng.png" alt=""></h3>
-           
           </div>
       </section>
       
       <section class="destinations">
 
-        <h3 class="title">Donde quieres ir?</h3>
+        <h3 class="title">¿Dónde quieres ir?</h3>
 
         <hr>
 
-        <p>Utiliza nuestro mapa Interactivo para ubicarte y conocer una de las 32 comunas que ofrece la Region de la Araucania.</p>
+        <p>Utiliza nuestro <b>Mapa Interactivo</b> para ubicarte y conocer las 32 comunas que ofrece la Región de la Araucania.</p>
 
         <h3 id="nomcomunas">&nbsp</h3>
         <div class="container">
@@ -140,8 +137,8 @@
               La región de La Araucanía, ubicada en el centro-sur de Chile, es un verdadero tesoro por descubrir. Sus paisajes impresionantes te llevarán desde exuberantes bosques y lagos cristalinos hasta majestuosos volcanes cubiertos de nieve. Cada rincón de esta tierra es una postal de belleza natural que te dejará sin aliento.
               
               Pero La Araucanía no solo es un regalo para los amantes de la naturaleza; también alberga una rica herencia cultural. Aquí, puedes explorar las tradiciones y la historia de los pueblos originarios, como los mapuches, que han dejado una huella profunda en esta tierra. Participa en ceremonias tradicionales, disfruta de la gastronomía local y admira el arte y la artesanía únicos de la región. </p>
-            <div id="imagen3">
-                <img src="../Imágenes/Araucaria.svg" alt="">
+            <div class="imagenes">
+            <center><img src="../Imágenes/Araucaria.svg" alt=""></center>
             </div>
 
         </div>
@@ -154,8 +151,8 @@
             <p>La región de La Araucanía, ubicada en el corazón de Chile, es un paraíso natural de dimensiones impresionantes. Los majestuosos volcanes, como el Llaima y el Villarrica, se alzan en el horizonte, dominando el paisaje con su presencia imponente. Los lagos, como el Lago Villarrica y el Lago Conguillío, reflejan el azul del cielo y los verdes bosques que los rodean, creando vistas que parecen sacadas de un cuento de hadas.
 
               Los extensos bosques nativos albergan una sorprendente diversidad de vida silvestre, desde cóndores majestuosos hasta pumas esquivos. Las montañas y valles ofrecen oportunidades interminables para la exploración, ya sea a través de rutas de senderismo que te llevan a cascadas escondidas o en emocionantes rutas de ciclismo de montaña. Durante el invierno, La Araucanía se convierte en un paraíso blanco, con sus centros de esquí y snowboard que atraen a amantes de los deportes invernales de todo el mundo.</p>
-            <div id="imagen4">
-                <img src="../Imágenes/naturaleza.svg" alt="">
+            <div class="imagenes">
+                <center><img src="../Imágenes/naturaleza.svg" alt=""></center>
             </div>
         </div>
     </section>
@@ -164,8 +161,8 @@
       <hr>
       <div class="parrafos">
           <p>La cultura mapuche, la comunidad indígena más grande de Chile, está profundamente arraigada en La Araucanía. La región es un crisol de tradiciones ancestrales y contemporáneas. Puedes visitar comunidades mapuches y experimentar su hospitalidad única. La música y la danza mapuche llenan el aire con ritmos que celebran la conexión con la tierra, mientras que la artesanía mapuche te sumerge en un mundo de creatividad y técnica. Degustar la comida mapuche es un verdadero placer, con el curanto como plato estrella, cocinado bajo tierra y lleno de sabores naturales.</p>
-          <div id="imagen5">
-              <img src="../Imágenes/culturatambor.svg" alt="">
+          <div class="imagenes">
+          <center><img src="../Imágenes/culturatambor.svg" alt=""></center>
           </div>
       </div>
   </section>
@@ -176,8 +173,8 @@
         <p>Los amantes de la aventura encontrarán en La Araucanía el escenario perfecto para satisfacer su sed de emoción. Los ríos caudalosos ofrecen oportunidades de rafting emocionante, mientras que los bosques son ideales para la exploración en bicicleta de montaña. Los entusiastas del senderismo pueden elegir entre una variedad de rutas que los llevarán a cascadas escondidas y miradores panorámicos.
 
           En invierno, los centros de esquí y snowboard, como Corralco, atraen a esquiadores y snowboarders de todas las edades y niveles de experiencia. Las pistas bien mantenidas y la nieve fresca ofrecen una experiencia única en el hemisferio sur. Además, la región es conocida por su equitación y pesca, lo que añade más opciones para los aventureros.</p>
-        <div id="imagen6">
-            <img src="../Imágenes/deporte.svg" alt="">
+        <div class="imagenes">
+        <center><img src="../Imágenes/deporte.svg" alt=""></center>
         </div>
     </div>
 </section>
@@ -186,15 +183,10 @@
   <hr>
   <div class="parrafos">
       <p>La calidez de la gente de La Araucanía es inigualable. Los habitantes de la región te recibirán con los brazos abiertos y estarán encantados de compartir sus conocimientos y experiencias contigo. No dudes en entablar conversaciones con los locales, quienes te contarán historias fascinantes sobre la región y te guiarán hacia tesoros ocultos y lugares secretos que solo los residentes conocen. En La Araucanía, la hospitalidad es una forma de vida, y te sentirás como en casa desde el primer momento.</p>
-      <div id="imagen7">
-          <img src="../Imágenes/hospitalidad.svg" alt="">
+      <div class="imagenes">
+      <center><img src="../Imágenes/hospitalidad.svg" alt=""></center>
       </div>
   </div>
-</section>
-<section id="sitios-turisticos">
-  <h3 class="title">Conoce algunas de nuestras ciudades.</h3>
-  <hr>
-  <iframe src="ciudad.html" width="100%" height="900"></iframe>
 </section>
 <center>
 <div class="textofinal">
@@ -205,15 +197,33 @@
   <div class="textofinal2">
       <h2 class="title">¡Te esperamos!</h2>
   </div>
-  </center>
-</section>
- <center>
+</center>
+<center>
+<div class="contenedor">
+  <div class="slide active" style="background-image: url('../Imágenes/conocetemuco.svg');">
+    <h3>Temuco</h3>
+  </div>
+  <div class="slide" style="background-image: url('../Imágenes/conocevillarrica.svg');">
+    <h3>Villarrica</h3>
+  </div>
+  <div class="slide" style="background-image: url('../Imágenes/conocepucon.svg');">
+    <h3>Pucon</h3>
+  </div>
+  <div class="slide" style="background-image: url('../Imágenes/conocelonquimay.svg');">
+    <h3>Lonquimay</h3>
+  </div>
+  <div class="slide" style="background-image: url('../Imágenes/conocepitru.svg');">
+    <h3>Pitrufquen</h3>
+  </div>
+</div>
+<section>
+<center>
   <div class="final">
-    <p>All Right Reserved by &copy;Encanto Araucano 2023 <img src="Logo2.0.png" alt=""> </p> 
+    <p>All Right Reserved by &copy;Encanto Araucano 2023 <img src="../Imágenes/Logo2.0.png" alt=""> </p> 
    </div>
- </center>
+</center>
 </section>
-<script src= "../Scripts/mapa.js"></script>
+<script src="../Scripts/mapa.js"></script> 
 </body>
 </html>
 
