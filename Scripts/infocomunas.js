@@ -617,6 +617,12 @@ document.addEventListener('DOMContentLoaded', function() {
               </button>
               <ul class="image-list">
                 <img class="image-item" src="../Imágenes/" alt="" />
+                <li><a href='https://www.facebook.com/lacavalonquimay'><img class='image-item' src='../Imágenes/la-cava.jpg' alt='' /></a></li>
+                <li><a href='https://araucaniasinfronteras.cl/hosteria-y-restaurant-donde-juancho-lonquimay/'><img class='image-item' src='../Imágenes/juancho.jpg' alt='' /></a></li>
+                <li><a href='https://www.facebook.com/rustikolonquimay/photos/hoyviernes/1475530842493088/?locale=es_LA'><img class='image-item' src='../Imágenes/rustiko.jpg' alt='' /></a></li>
+                <li><a href='https://lodgelonquimay.cl/'><img class='image-item' src='../Imágenes/cerveceria.jpg' alt='' /></a></li>
+                <li><a href='https://www.instagram.com/sagales_lonquimay/?hl=es'><img class='image-item' src='../Imágenes/sagales.jpg' alt='' /></a></li>
+                <li><a href='https:https://www.facebook.com/lamamanitacafeteria/?locale=es_LA'><img class='image-item' src='../Imágenes/mamanita.jpg' alt='' /></a></li>
               </ul>
               <button id="next-slide" class="slide-button material-symbols-rounded">
               </button>
@@ -642,7 +648,12 @@ document.addEventListener('DOMContentLoaded', function() {
               <button id="prev-slide" class="slide-button material-symbols-rounded">
               </button>
               <ul class="image-list">
-                <img class="image-item" src="../Imágenes/" alt="" />
+              <li><a href='https://www.araucaniaandina.com/quebrada-honda/'><img class='image-item' src='../Imágenes/la-cava.jpg' alt='' /></a></li>
+              <li><a href='https://araucaniasinfronteras.cl/hosteria-y-restaurant-donde-juancho-lonquimay/'><img class='image-item' src='../Imágenes/juancho.jpg' alt='' /></a></li>
+              <li><a href='https://www.facebook.com/rustikolonquimay/photos/hoyviernes/1475530842493088/?locale=es_LA'><img class='image-item' src='../Imágenes/rustiko.jpg' alt='' /></a></li>
+              <li><a href='https://lodgelonquimay.cl/'><img class='image-item' src='../Imágenes/cerveceria.jpg' alt='' /></a></li>
+              <li><a href='https://www.instagram.com/sagales_lonquimay/?hl=es'><img class='image-item' src='../Imágenes/sagales.jpg' alt='' /></a></li>
+              <li><a href='https:https://www.facebook.com/lamamanitacafeteria/?locale=es_LA'><img class='image-item' src='../Imágenes/mamanita.jpg' alt='' /></a></li>
               </ul>
               <button id="next-slide" class="slide-button material-symbols-rounded">
               </button>
