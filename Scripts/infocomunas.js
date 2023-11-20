@@ -1887,11 +1887,11 @@ document.addEventListener('DOMContentLoaded', function() {
               <button id="prev-slide" class="slide-button material-symbols-rounded">
               </button>
               <ul class="image-list">
-                <a href="https://www.facebook.com/p/Restaurant-La-Guitarra-100076085353002/?_rdc=2&_rdr"><img class="image-item" src="../Imágenes/la_guitarra.jpg" alt="" /></a>
-                <a href="https://www.instagram.com/todorikovilcun/"><img class="image-item" src="../Imágenes/todoriko_vilcun.jpg" alt="" /></a>
-                <a href="https://la-super-chorri.negocio.site/?utm_source=gmb&utm_medium=referral"><img class="image-item" src="../Imágenes/la_super_chorri.jpg" alt="" /></a>
-                <a href="https://www.facebook.com/p/Restaurant-La-Guitarra-100076085353002/?_rdc=2&_rdr"><img class="image-item" src="../Imágenes/la_guitarra.jpg" alt="" /></a>
-                <a href="https://www.instagram.com/todorikovilcun/"><img class="image-item" src="../Imágenes/todoriko_vilcun.jpg" alt="" /></a>
+                  <a href="https://www.facebook.com/p/Restaurant-La-Guitarra-100076085353002/?_rdc=2&_rdr"><img class="image-item" src="../Imágenes/la_guitarra.jpg" alt="" /></a>
+                  <a href="https://www.instagram.com/todorikovilcun/"><img class="image-item" src="../Imágenes/todoriko_vilcun.jpg" alt="" /></a>
+                  <a href="https://la-super-chorri.negocio.site/?utm_source=gmb&utm_medium=referral"><img class="image-item" src="../Imágenes/la_super_chorri.jpg" alt="" /></a>
+                  <a href="https://maps.app.goo.gl/Fgf7AuqRx5mTD9kf9"><img class="image-item" src="../Imágenes/tañi_puche.jpg" alt="" /></a>
+                  <a href="https://maps.app.goo.gl/nL8d5tdnQfk9i4JT7"><img class="image-item" src="../Imágenes/hornitos.jpg" alt="" /></a>
               </ul>
               <button id="next-slide" class="slide-button material-symbols-rounded">
               </button>
@@ -1920,8 +1920,8 @@ document.addEventListener('DOMContentLoaded', function() {
               <ul class="image-list">
                 <a href="https://rnvv.sernageomin.cl/volcan-llaima/"><img class="image-item" src="../Imágenes/volcan_llaima.jpg" alt="" /></a>
                 <a href="https://www.google.com/maps/place/Plaza+Central+Vilcun/@-38.6705749,-72.226619,17z/data=!3m1!4b1!4m6!3m5!1s0x9614b3ed7b474b8d:0x4068cbf44d634193!8m2!3d-38.6705791!4d-72.2240768!16s%2Fg%2F11cs28mqvr?entry=ttu"><img class="image-item" src="../Imágenes/plaza_vilcun.jpg" alt="" /></a>
-                <a href="https://rnvv.sernageomin.cl/volcan-llaima/"><img class="image-item" src="../Imágenes/volcan_llaima.jpg" alt="" /></a>
-                <a href="https://www.google.com/maps/place/Plaza+Central+Vilcun/@-38.6705749,-72.226619,17z/data=!3m1!4b1!4m6!3m5!1s0x9614b3ed7b474b8d:0x4068cbf44d634193!8m2!3d-38.6705791!4d-72.2240768!16s%2Fg%2F11cs28mqvr?entry=ttu"><img class="image-item" src="../Imágenes/plaza_vilcun.jpg" alt="" /></a>
+                <a href="https://cabanas-toja.negocio.site/?utm_source=gmb&utm_medium=referral"><img class="image-item" src="../Imágenes/cabaña_nuevor.jpg" alt="" /></a>
+                <a href="https://maps.app.goo.gl/r2oxQb1eHwYy4ciz8"><img class="image-item" src="../Imágenes/laguna.jpg" alt="" /></a>
                 <a href="https://rnvv.sernageomin.cl/volcan-llaima/"><img class="image-item" src="../Imágenes/volcan_llaima.jpg" alt="" /></a>
               </ul>
               <button id="next-slide" class="slide-button material-symbols-rounded">
@@ -1950,10 +1950,9 @@ document.addEventListener('DOMContentLoaded', function() {
               <ul class="image-list">
                 <a href="https://www.kutralkura.cl/servicios/cherquenco-expediciones?lang=pt"><img class="image-item" src="../Imágenes/cherquenco_expediciones.jpg" alt="" /></a>
                 <a href="https://www.airbnb.cl/rooms/33607728?guests=1&adults=1&s=13&unique_share_id=3de08352-1ace-4d66-946d-a9b04204c001&_set_bev_on_new_domain=1700245954_NDljMTczMTViMWU2&source_impression_id=p3_1700245955_wnOfXCIQYqTAdAAS"><img class="image-item" src="../Imágenes/cabaña_con_tinaja.jpg" alt="" /></a>
+                <a href="https://maps.app.goo.gl/4hzjXVWXN7GCPp8J8"><img class="image-item" src="../Imágenes/pewen_tur.jpg" alt="" /></a>
                 <a href="https://www.kutralkura.cl/servicios/cherquenco-expediciones?lang=pt"><img class="image-item" src="../Imágenes/cherquenco_expediciones.jpg" alt="" /></a>
-                <a href="https://www.airbnb.cl/rooms/33607728?guests=1&adults=1&s=13&unique_share_id=3de08352-1ace-4d66-946d-a9b04204c001&_set_bev_on_new_domain=1700245954_NDljMTczMTViMWU2&source_impression_id=p3_1700245955_wnOfXCIQYqTAdAAS"><img class="image-item" src="../Imágenes/cabaña_con_tinaja.jpg" alt="" /></a>
-                <a href="https://www.kutralkura.cl/servicios/cherquenco-expediciones?lang=pt"><img class="image-item" src="../Imágenes/cherquenco_expediciones.jpg" alt="" /></a>
-          
+                <a href="https://www.airbnb.cl/rooms/33607728?guests=1&adults=1&s=13&unique_share_id=3de08352-1ace-4d66-946d-a9b04204c001&_set_bev_on_new_domain=1700245954_NDljMTczMTViMWU2&source_impression_id=p3_1700245955_wnOfXCIQYqTAdAAS"><img class="image-item" src="../Imágenes/cabaña_con_tinaja.jpg" alt="" /></a>        
               </ul>
               <button id="next-slide" class="slide-button material-symbols-rounded">
               </button>
@@ -1981,9 +1980,9 @@ document.addEventListener('DOMContentLoaded', function() {
               <ul class="image-list">
                 <a href="https://www.facebook.com/profile.php?id=100083286395394"><img class="image-item" src="../Imágenes/estadio_vilcun.jpg" alt="" /></a>
                 <a href="https://www.conaf.cl/parques/parque-nacional-conguillio/"><img class="image-item" src="../Imágenes/parque_conguillio.jpg" alt="" /></a>
+                <a href="https://maps.app.goo.gl/mHYXuceSq51dbZ5Q6"><img class="image-item" src="../Imágenes/terminal_vilcun.jpg" alt="" /></a>
                 <a href="https://www.facebook.com/profile.php?id=100083286395394"><img class="image-item" src="../Imágenes/estadio_vilcun.jpg" alt="" /></a>
-                <a href="https://www.conaf.cl/parques/parque-nacional-conguillio/"><img class="image-item" src="../Imágenes/parque_conguillio.jpg" alt="" /></a>
-                <a href="https://www.facebook.com/profile.php?id=100083286395394"><img class="image-item" src="../Imágenes/estadio_vilcun.jpg" alt="" /></a>         
+                <a href="https://www.conaf.cl/parques/parque-nacional-conguillio/"><img class="image-item" src="../Imágenes/parque_conguillio.jpg" alt="" /></a>         
               </ul>
               <button id="next-slide" class="slide-button material-symbols-rounded">
               </button>
@@ -2049,9 +2048,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 <a href="https://www.instagram.com/puertopuconrestaurant/"><img class="image-item" src="../Imágenes/puerto_pucon.jpg" alt="" /></a>
                 <a href="https://www.instagram.com/rukapuconrestaurante/"><img class="image-item" src="../Imágenes/ruka_pucon.jpg" alt="" /></a>
                 <a href="https://elfogondepucon.cl/"><img class="image-item" src="../Imágenes/el_fogon.jpg" alt="" /></a>
+                <a href="https://maps.app.goo.gl/XS3mCc2Z3uA7xZ9C8"><img class="image-item" src="../Imágenes/comidas_al_paso_pucon.jpg" alt="" /></a>
                 <a href="https://www.instagram.com/puertopuconrestaurant/"><img class="image-item" src="../Imágenes/puerto_pucon.jpg" alt="" /></a>
-                <a href="https://www.instagram.com/rukapuconrestaurante/"><img class="image-item" src="../Imágenes/ruka_pucon.jpg" alt="" /></a>
-          
               </ul>
               <button id="next-slide" class="slide-button material-symbols-rounded">
               </button>
@@ -2079,9 +2077,9 @@ document.addEventListener('DOMContentLoaded', function() {
               <ul class="image-list">
                 <a href="https://www.complejoturisticopucon.com/"><img class="image-item" src="../Imágenes/complejo_turistico.jpg" alt="" /></a>
                 <a href="https://www.booking.com/hotel/cl/cabana-equipada.es.html?aid=1237413&label=gog235jc-1DCAsoL0IPY2FiYW5hLWVxdWlwYWRhSAlYA2gviAEBmAEJuAEXyAEM2AED6AEB-AEEiAIBqAIDuAL0jeCqBsACAdICJDI2YjdiZjJiLWI1NjUtNDFlMi1iNDg4LWVmZGNlYmU5ZTA2NtgCBOACAQ&sid=6f94f57237eb72601e738d770438d9e6&dist=0&keep_landing=1&sb_price_type=total&type=total&"><img class="image-item" src="../Imágenes/cabaña_alto_bosque.jpg" alt="" /></a>
-                <a href="https://www.complejoturisticopucon.com/"><img class="image-item" src="../Imágenes/complejo_turistico.jpg" alt="" /></a>
-                <a href="https://www.booking.com/hotel/cl/cabana-equipada.es.html?aid=1237413&label=gog235jc-1DCAsoL0IPY2FiYW5hLWVxdWlwYWRhSAlYA2gviAEBmAEJuAEXyAEM2AED6AEB-AEEiAIBqAIDuAL0jeCqBsACAdICJDI2YjdiZjJiLWI1NjUtNDFlMi1iNDg4LWVmZGNlYmU5ZTA2NtgCBOACAQ&sid=6f94f57237eb72601e738d770438d9e6&dist=0&keep_landing=1&sb_price_type=total&type=total&"><img class="image-item" src="../Imágenes/cabaña_alto_bosque.jpg" alt="" /></a>
-                <a href="https://www.complejoturisticopucon.com/"><img class="image-item" src="../Imágenes/complejo_turistico.jpg" alt="" /></a>    
+                <a href="https://puconoriente.cl/"><img class="image-item" src="../Imágenes/cabaña_pucon_oriente.jpg" alt="" /></a>
+                <a href="https://pucongreenpark.cl/"><img class="image-item" src="../Imágenes/green_park_hotel.jpg" alt="" /></a>    
+                <a href="https://www.complejoturisticopucon.com/"><img class="image-item" src="../Imágenes/complejo_turistico.jpg" alt="" /></a> 
               </ul>
               <button id="next-slide" class="slide-button material-symbols-rounded">
               </button>
@@ -2110,8 +2108,8 @@ document.addEventListener('DOMContentLoaded', function() {
               <ul class="image-list">
                 <a href="https://rukaglamping.cl/"><img class="image-item" src="../Imágenes/glamping.jpg" alt="" /></a>
                 <a href="https://www.facebook.com/lapozapucon"><img class="image-item" src="../Imágenes/mirador_la_poza.jpg" alt="" /></a>
-                <a href="https://rukaglamping.cl/"><img class="image-item" src="../Imágenes/glamping.jpg" alt="" /></a>
-                <a href="https://www.facebook.com/lapozapucon"><img class="image-item" src="../Imágenes/mirador_la_poza.jpg" alt="" /></a>
+                <a href="https://maps.app.goo.gl/uBy12uoVb2qw9Kij9"><img class="image-item" src="../Imágenes/mirador_cristo.jpg" alt="" /></a>
+                <a href="https://maps.app.goo.gl/A28gaGWa4cPqFKSq6"><img class="image-item" src="../Imágenes/camping_pucon.jpg" alt="" /></a>
                 <a href="https://rukaglamping.cl/"><img class="image-item" src="../Imágenes/glamping.jpg" alt="" /></a>
               </ul>
               <button id="next-slide" class="slide-button material-symbols-rounded">
@@ -2142,8 +2140,8 @@ document.addEventListener('DOMContentLoaded', function() {
               <ul class="image-list">
                 <a href="https://www.facebook.com/pages/Parque-Municipal-Puc%C3%B3n/812624532428164"><img class="image-item" src="../Imágenes/parque_pucon.jpg" alt="" /></a>
                 <a href="https://www.facebook.com/pages/Playa-Pucon-Chile/138673552916123"><img class="image-item" src="../Imágenes/playa_pucon.jpg" alt="" /></a>
-                <a href="https://www.facebook.com/pages/Parque-Municipal-Puc%C3%B3n/812624532428164"><img class="image-item" src="../Imágenes/parque_pucon.jpg" alt="" /></a>
-                <a href="https://www.facebook.com/pages/Playa-Pucon-Chile/138673552916123"><img class="image-item" src="../Imágenes/playa_pucon.jpg" alt="" /></a>
+                <a href="https://www.conaf.cl/?s=a&region=araucania&parques=parque-nacional-huerquehue"><img class="image-item" src="../Imágenes/parque_nacional_huerquehue.jpg" alt="" /></a>
+                <a href="http://www.bosqueaventura.cl/"><img class="image-item" src="../Imágenes/bosque_aventura_pucon.jpg" alt="" /></a>
                 <a href="https://www.facebook.com/pages/Parque-Municipal-Puc%C3%B3n/812624532428164"><img class="image-item" src="../Imágenes/parque_pucon.jpg" alt="" /></a>
               </ul>
               <button id="next-slide" class="slide-button material-symbols-rounded">
