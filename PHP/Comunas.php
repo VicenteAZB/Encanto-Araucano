@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="../Css/comunas.css">
     <link rel="stylesheet" href="../Css/styleSlider.css">
     <title id="titulo"></title>
-    <link rel="icon" type="image/png" href="../Imágenes/Logo2.0.png">
+    <link rel="icon" type="image/svg" href="../Imágenes/Logo2.0.svg">
 </head>
 <?php
     include 'Header.php'
@@ -64,7 +64,7 @@
           </div>
          </center>
          <div class="final">
-          <p>All Right Reserved by &copy;Encanto Araucano 2023 <img src="../Imágenes/Logo2.0.png" alt=""> </p> 
+          <p>All Right Reserved by &copy;Encanto Araucano 2023 <img src="../Imágenes/Logo2.0.svg" alt=""> </p> 
          </div>
       </section>
       <script src= "../Scripts/script.js"></script>

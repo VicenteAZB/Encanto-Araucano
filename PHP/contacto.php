@@ -36,7 +36,7 @@ if (isset($_SESSION['usuario'])) {
                     <h2>Iniciar Sesión</h2>
                     <input type="email" placeholder="Ingrese su correo electrónico" name="correo" required>
                     <input type="password" class="passwrd" id="InputPassLogin" placeholder="Ingrese su contraseña" name="password" required>
-                    <img src="../Imágenes/show.png" alt="" class="icon-login" id="Ojo1">
+                    <img src="../Imágenes/show.svg" alt="" class="icon-login" id="Ojo1">
                     <button id="entrar">Entrar</button>
                 </form>
                 <form action="registro_BE.php" method="POST" name="registro" class="formulario__register">
@@ -45,7 +45,7 @@ if (isset($_SESSION['usuario'])) {
                     <input type="email" placeholder="Ingrese su correo electrónico" name="correo" required>
                     <input type="text" placeholder="Ingrese un nombre de usuario" name="usuario" required>
                     <input type="password" class="passwrd" id="InputPassRegister" placeholder="Ingrese su contraseña" name="contrasena" required>
-                    <img src="../Imágenes/show.png" alt="" class="icon-register" id="Ojo2">
+                    <img src="../Imágenes/show.svg" alt="" class="icon-register" id="Ojo2">
                     <button id="btnreg">Registrarse</button>
                 </form>
             </div>

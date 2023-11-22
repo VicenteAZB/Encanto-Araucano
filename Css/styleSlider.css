@@ -109,13 +109,13 @@
   }
 
   #prev-slide{
-    background-image: url("../Imágenes/flecha2.jpg");
+    background-image: url("../Imágenes/flecha2.svg");
     background-size: cover;
 
   }
 
   #next-slide{
-    background-image: url("../Imágenes/flecha.jpg");
+    background-image: url("../Imágenes/flecha.svg");
     background-size: cover;
   }
   
