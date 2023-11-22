@@ -60,6 +60,14 @@
     height: 400px;
     object-fit: cover;
   }
+
+  .slider-wrapper .image-list .image-item:hover {
+    transform: scale(0.95);
+  }
+
+  .slider-wrapper .image-list .image-item:active {
+    opacity: 0.6;
+  }
   
   .container .slider-scrollbar {
     height: 24px;

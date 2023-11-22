@@ -616,12 +616,12 @@ document.addEventListener('DOMContentLoaded', function() {
               <button id="prev-slide" class="slide-button material-symbols-rounded">
               </button>
               <ul class="image-list">
-                <li><a href='https://www.facebook.com/lacavalonquimay'><img class='image-item' src='../Imágenes/la-cava.svg' alt='' /></a></li>
-                <li><a href='https://araucaniasinfronteras.cl/hosteria-y-restaurant-donde-juancho-lonquimay/'><img class='image-item' src='../Imágenes/juancho.svg' alt='' /></a></li>
-                <li><a href='https://www.facebook.com/rustikolonquimay/photos/hoyviernes/1475530842493088/?locale=es_LA'><img class='image-item' src='../Imágenes/rustiko.svg' alt='' /></a></li>
-                <li><a href='https://lodgelonquimay.cl/'><img class='image-item' src='../Imágenes/cerveceria.svg' alt='' /></a></li>
-                <li><a href='https://www.instagram.com/sagales_lonquimay/?hl=es'><img class='image-item' src='../Imágenes/sagales.svg' alt='' /></a></li>
-                <li><a href='https:https://www.facebook.com/lamamanitacafeteria/?locale=es_LA'><img class='image-item' src='../Imágenes/mamanita.svg' alt='' /></a></li>
+              <li><a href='https://www.facebook.com/lacavalonquimay'><img class='image-item' src='../Imágenes/la-cava.svg' alt='' /></a></li>
+              <li><a href='https://araucaniasinfronteras.cl/hosteria-y-restaurant-donde-juancho-lonquimay/'><img class='image-item' src='../Imágenes/juancho.svg' alt='' /></a></li>
+              <li><a href='https://www.facebook.com/rustikolonquimay/photos/hoyviernes/1475530842493088/?locale=es_LA'><img class='image-item' src='../Imágenes/rustiko.svg' alt='' /></a></li>
+              <li><a href='https://lodgelonquimay.cl/'><img class='image-item' src='../Imágenes/cerveceria.svg' alt='' /></a></li>
+              <li><a href='https://www.instagram.com/sagales_lonquimay/?hl=es'><img class='image-item' src='../Imágenes/sagales.svg' alt='' /></a></li>
+              <li><a href='https:https://www.facebook.com/lamamanitacafeteria/?locale=es_LA'><img class='image-item' src='../Imágenes/mamanita.svg' alt='' /></a></li>
               </ul>
               <button id="next-slide" class="slide-button material-symbols-rounded">
               </button>
@@ -647,12 +647,12 @@ document.addEventListener('DOMContentLoaded', function() {
               <button id="prev-slide" class="slide-button material-symbols-rounded">
               </button>
               <ul class="image-list">
-              <li><a href='https://www.araucaniaandina.com/quebrada-honda/'><img class='image-item' src='../Imágenes/la-cava.svg' alt='' /></a></li>
-              <li><a href='https://araucaniasinfronteras.cl/hosteria-y-restaurant-donde-juancho-lonquimay/'><img class='image-item' src='../Imágenes/juancho.svg' alt='' /></a></li>
-              <li><a href='https://www.facebook.com/rustikolonquimay/photos/hoyviernes/1475530842493088/?locale=es_LA'><img class='image-item' src='../Imágenes/rustiko.svg' alt='' /></a></li>
-              <li><a href='https://lodgelonquimay.cl/'><img class='image-item' src='../Imágenes/cerveceria.svg' alt='' /></a></li>
-              <li><a href='https://www.instagram.com/sagales_lonquimay/?hl=es'><img class='image-item' src='../Imágenes/sagales.svg' alt='' /></a></li>
-              <li><a href='https:https://www.facebook.com/lamamanitacafeteria/?locale=es_LA'><img class='image-item' src='../Imágenes/mamanita.svg' alt='' /></a></li>
+              <li><a href='https://www.araucaniaandina.com/quebrada-honda/'><img class='image-item' src='../Imágenes/quebrada.svg' alt='' /></a></li>
+              <li><a href='https://malalcanieve.cl/'><img class='image-item' src='../Imágenes/corralco.svg' alt='' /></a></li>
+              <li><a href='https://www.malalcahuellochile.cl/cuesta-las-raices/'><img class='image-item' src='../Imágenes/cuesta.svg' alt='' /></a></li>
+              <li><a href='https://www.elcamperoandino.com/'><img class='image-item' src='../Imágenes/andino.svg' alt='' /></a></li>
+              <li><a href='https:https://www.instagram.com/awkaventura/'><img class='image-item' src='../Imágenes/excursiones.svg' alt='' /></a></li>
+              <li><a href='https://www.ecocaminante.cl/'><img class='image-item' src='../Imágenes/ecocaminante.svg' alt='' /></a></li>
               </ul>
               <button id="next-slide" class="slide-button material-symbols-rounded">
               </button>
@@ -678,7 +678,12 @@ document.addEventListener('DOMContentLoaded', function() {
               <button id="prev-slide" class="slide-button material-symbols-rounded">
               </button>
               <ul class="image-list">
-                <img class="image-item" src="../Imágenes/" alt="" />
+              <li><a href='https://www.andeshandbook.org/montanismo/cerro/123/Lonquimay/servicios'><img class='image-item' src='../Imágenes/volcanc.svg' alt='' /></a></li>
+              <li><a href='https://www.araucaniaandina.com/salto-alaska/'><img class='image-item' src='../Imágenes/saltoalaska.svg' alt='' /></a></li>
+              <li><a href='https://www.kutralkura.cl/geositios/azufreras-de-pelehue?lang='><img class='image-item' src='../Imágenes/azufrera.svg' alt='' /></a></li>
+              <li><a href='https://www.kutralkura.cl/geositios/estratos-de-lolen?lang='><img class='image-item' src='../Imágenes/estratos.svg' alt='' /></a></li>
+              <li><a href='https://www.kutralkura.cl/geositios/lago-lolco?lang='><img class='image-item' src='../Imágenes/lago.svg' alt='' /></a></li>
+              <li><a href='https://www.kutralkura.cl/geositios/mirador-rayen-pehuen?lang='><img class='image-item' src='../Imágenes/mirador.svg' alt='' /></a></li>
               </ul>
               <button id="next-slide" class="slide-button material-symbols-rounded">
               </button>
@@ -704,7 +709,9 @@ document.addEventListener('DOMContentLoaded', function() {
               <button id="prev-slide" class="slide-button material-symbols-rounded">
               </button>
               <ul class="image-list">
-                <img class="image-item" src="../Imágenes/" alt="" />
+              <li><a href='https://www.mlonquimay.cl/web/unidad-de-cultura/'><img class='image-item' src='../Imágenes/casacultura.svg' alt='' /></a></li>
+              <li><a href='https://www.mlonquimay.cl/web/contacto/'><img class='image-item' src='../Imágenes/municipalidad.svg' alt='' /></a></li>
+              <li><a href='https://www.mlonquimay.cl/web/departamentos/turismo/'><img class='image-item' src='../Imágenes/oficina.svg' alt='' /></a></li>
               </ul>
               <button id="next-slide" class="slide-button material-symbols-rounded">
               </button>
@@ -720,10 +727,10 @@ document.addEventListener('DOMContentLoaded', function() {
       galeriadescripcion.textContent = "";
       
       galeria.innerHTML = ` 
-      <li class="small" style="background-image: url('');"></li>
-      <li class="large" style="background-image: url('');"></li>
-      <li class="large" style="background-image: url('');"></li>
-      <li class="small" style="background-image: url('');"></li>`;
+      <li class="small" style="background-image: url('../Imágenes/galeria11.svg');"></li>
+      <li class="large" style="background-image: url('../Imágenes/galeria12.svg');"></li>
+      <li class="large" style="background-image: url('../Imágenes/galeria13.svg');"></li>
+      <li class="small" style="background-image: url('../Imágenes/galeria15.svg');"></li>`;
 
       video.innerHTML = `
       <iframe src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
